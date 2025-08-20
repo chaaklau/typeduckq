@@ -1,0 +1,740 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Duck Game</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: #000000;
+            font-family: Arial, sans-serif;
+            overflow: hidden;
+        }
+        
+        #game-container {
+            display: flex;
+            height: 100vh;
+            position: relative;
+        }
+        
+        #game-canvas {
+            flex: 1;
+            position: relative;
+        }
+        
+        #sidebar {
+            width: 320px;
+            background: rgba(22, 33, 62, 0.95);
+            padding: 20px;
+            color: white;
+            overflow-y: auto;
+            border-left: 2px solid #0f3460;
+            backdrop-filter: blur(10px);
+        }
+        
+        .hidden-section {
+            display: none;
+        }
+        
+        #controls {
+            margin-bottom: 20px;
+        }
+        
+        .control-group {
+            margin-bottom: 15px;
+        }
+        
+        .control-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #60a5fa;
+        }
+        
+        #word-filter, #label-filter {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+            border: 1px solid #0f3460;
+            border-radius: 4px;
+            background: #1a1a2e;
+            color: white;
+        }
+        
+        .display-controls {
+            background: rgba(15, 52, 96, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+        }
+        
+        .display-controls h4 {
+            margin: 0 0 10px 0;
+            color: #4ade80;
+        }
+        
+        .control-row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0;
+        }
+        
+        .control-row label {
+            margin: 0;
+            flex: 1;
+        }
+        
+        .control-row input[type="range"] {
+            flex: 1;
+            margin-left: 10px;
+        }
+        
+        .control-row input[type="color"] {
+            width: 40px;
+            height: 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        button {
+            background: #0f3460;
+            color: white;
+            border: none;
+            padding: 10px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            margin: 5px;
+            font-size: 14px;
+            transition: background 0.3s;
+        }
+        
+        button:hover {
+            background: #16213e;
+        }
+        
+        button:disabled {
+            background: #666666;
+            color: #aaaaaa;
+            cursor: not-allowed;
+        }
+        
+        .primary-btn {
+            background: #4ade80;
+            color: #1a1a2e;
+            font-weight: bold;
+        }
+        
+        .primary-btn:hover {
+            background: #22c55e;
+        }
+        
+        .secondary-btn {
+            background: #ef4444;
+        }
+        
+        .secondary-btn:hover {
+            background: #dc2626;
+        }
+        
+        /* Top control buttons */
+        #top-controls {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            display: flex;
+            gap: 10px;
+        }
+        
+        .icon-btn {
+            width: 50px;
+            height: 50px;
+            border: none;
+            border-radius: 50%;
+            background: rgba(22, 33, 62, 0.9);
+            color: white;
+            font-size: 20px;
+            cursor: pointer;
+            transition: all 0.3s;
+            backdrop-filter: blur(10px);
+            border: 2px solid #0f3460;
+        }
+        
+        .icon-btn:hover {
+            background: rgba(15, 52, 96, 0.9);
+            transform: scale(1.1);
+        }
+        
+        /* Game start modal */
+        #start-game-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+        }
+        
+        .start-modal-content {
+            background: rgba(22, 33, 62, 0.95);
+            border: 2px solid #0f3460;
+            border-radius: 20px;
+            padding: 40px;
+            text-align: center;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+            max-width: 600px;
+            width: 90%;
+        }
+        
+        .start-modal-content h2 {
+            color: #4ade80;
+            margin-bottom: 10px;
+            font-size: 28px;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .start-modal-content p {
+            color: #9ca3af;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        
+        .start-buttons-container {
+            display: flex;
+            gap: 20px;
+            flex-direction: column;
+        }
+        
+        .start-game-btn {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            padding: 20px;
+            border: none;
+            border-radius: 15px;
+            background: linear-gradient(135deg, #4ade80, #22c55e);
+            color: #1a1a2e;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-align: left;
+            font-family: inherit;
+            box-shadow: 0 4px 15px rgba(74, 222, 128, 0.3);
+        }
+        
+        .start-game-btn:hover {
+            background: linear-gradient(135deg, #22c55e, #16a34a);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(74, 222, 128, 0.4);
+        }
+        
+        .start-game-btn:disabled {
+            background: #666666;
+            color: #aaaaaa;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        
+        .btn-icon {
+            font-size: 32px;
+            flex-shrink: 0;
+        }
+        
+        .btn-content {
+            flex: 1;
+        }
+        
+        .btn-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 2px;
+        }
+        
+        .btn-subtitle {
+            font-size: 16px;
+            font-weight: 600;
+            margin-bottom: 4px;
+            opacity: 0.8;
+        }
+        
+        .btn-description {
+            font-size: 14px;
+            opacity: 0.7;
+            font-style: italic;
+        }
+        
+        #cleared-words {
+            max-height: 350px;
+            overflow-y: auto;
+        }
+        
+        .cleared-word {
+            background: rgba(15, 52, 96, 0.6);
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 6px;
+            font-size: 11px;
+            border-left: 3px solid #4ade80;
+            line-height: 1.3;
+        }
+        
+        .cleared-word .char {
+            font-size: 16px;
+            font-weight: bold;
+            color: #4ade80;
+            cursor: pointer;
+            text-decoration: none;
+            transition: color 0.2s;
+        }
+        
+        .cleared-word .char:hover {
+            color: #22c55e;
+            text-decoration: underline;
+        }
+        
+        .cleared-word .pronunciation {
+            color: #60a5fa;
+            font-size: 10px;
+            margin-top: 2px;
+        }
+        
+        .cleared-word .eng {
+            color: #9ca3af;
+            font-size: 10px;
+            margin-top: 2px;
+        }
+        
+        #stats {
+            margin-top: 100px;
+            margin-bottom: 20px;
+            background: rgba(15, 52, 96, 0.3);
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        .stat {
+            display: flex;
+            justify-content: space-between;
+            margin: 8px 0;
+            font-size: 14px;
+        }
+        
+        .stat-value {
+            font-weight: bold;
+            color: #4ade80;
+        }
+        
+        #game-over-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+        
+        .game-over-content {
+            background: #16213e;
+            padding: 40px;
+            border-radius: 12px;
+            text-align: center;
+            color: white;
+            border: 2px solid #4ade80;
+        }
+        
+        .game-over-content h2 {
+            color: #ef4444;
+            margin-top: 0;
+        }
+        
+        .about-btn {
+            position: absolute;
+            top: 20px;
+            right: 340px;
+            background: rgba(15, 52, 96, 0.8);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+            font-size: 16px;
+            z-index: 100;
+        }
+        
+        .about-btn:hover {
+            background: rgba(22, 33, 62, 0.9);
+        }
+        
+        #about-modal, #word-history-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 2000;
+        }
+        
+        .about-content {
+            background: #16213e;
+            padding: 30px;
+            border-radius: 12px;
+            max-width: 500px;
+            color: white;
+            border: 2px solid #4ade80;
+        }
+        
+        .close-btn {
+            float: right;
+            background: none;
+            border: none;
+            color: #ef4444;
+            font-size: 24px;
+            cursor: pointer;
+            padding: 0;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <!-- Top-right control buttons -->
+        <div id="top-controls">
+            <button class="icon-btn" id="settings-btn" onclick="toggleSettings()" title="Settings">⚙️</button>
+            <button class="icon-btn" onclick="showWordHistory()" title="Word History">📖</button>
+            <button class="icon-btn" onclick="showAbout()" title="About">ℹ️</button>
+        </div>
+        
+        <!-- Game start buttons -->
+        <div id="start-game-modal">
+            <div class="start-modal-content">
+                <h2>🦆 Choose Game Mode</h2>
+                <p>Select your preferred typing mode to begin playing</p>
+                
+                <div class="start-buttons-container">
+                    <button id="start-tone-btn" class="start-game-btn" onclick="startGameWithTone(true)">
+                        <div class="btn-icon">🎵</div>
+                        <div class="btn-content">
+                            <div class="btn-title">有聲調模式</div>
+                            <div class="btn-subtitle">With Tones Mode</div>
+                            <div class="btn-description">Type with tone numbers (aap3, maau1)</div>
+                        </div>
+                    </button>
+                    
+                    <button id="start-toneless-btn" class="start-game-btn" onclick="startGameWithTone(false)">
+                        <div class="btn-icon">📝</div>
+                        <div class="btn-content">
+                            <div class="btn-title">無聲調模式</div>
+                            <div class="btn-subtitle">Toneless Mode</div>
+                            <div class="btn-description">Type without tone numbers (aap, maau)</div>
+                        </div>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div id="game-canvas"></div>
+        <div id="sidebar">
+            <!-- Settings Panel (Hidden by default) -->
+            <div id="settings-panel" class="hidden-section">
+                <h3>⚙️ Settings</h3>
+                
+                <div class="control-group">
+                    <label>
+                        <input type="checkbox" id="toneless-mode"> 無聲調模式 Toneless Mode
+                    </label>
+                    <small style="color: #9ca3af; display: block; margin-top: 5px;">
+                        忽略聲調數字 Ignore tone numbers
+                    </small>
+                </div>
+                
+                <div class="control-group">
+                    <label>📚 Word Pool Status</label>
+                    <div style="background: rgba(15, 52, 96, 0.3); padding: 10px; border-radius: 5px; margin-top: 5px;">
+                        <div style="color: #4ade80; font-size: 14px;">
+                            <span>Available Words: <span id="total-words-count">0</span></span>
+                        </div>
+                        <div style="color: #60a5fa; font-size: 12px; margin-top: 3px;">
+                            <span>Previously Typed: <span id="history-words-count">0</span></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="config-section">
+                    <div class="control-group">
+                        <label>字詞篩選 Word Filters</label>
+                        <input type="text" id="word-filter" placeholder="Enter regex pattern...">
+                        <input type="text" id="label-filter" placeholder="Enter labels (comma separated)...">
+                    </div>
+                    
+                    <div class="display-controls">
+                        <h4>🎨 Card Display</h4>
+                        <div class="control-row">
+                            <label>Card Size:</label>
+                            <input type="range" id="card-size" min="0.5" max="2" step="0.1" value="1">
+                        </div>
+                        <div class="control-row">
+                            <label>Char Color:</label>
+                            <input type="color" id="char-color" value="#ffffff">
+                        </div>
+                        <div class="control-row">
+                            <label>Eng Color:</label>
+                            <input type="color" id="eng-color" value="#9ca3af">
+                        </div>
+                        <div class="control-row">
+                            <label>Card Color:</label>
+                            <input type="color" id="card-color" value="#0f3460">
+                        </div>
+                    </div>
+                
+                    <button class="primary-btn" onclick="game.applyFilters()">套用篩選 Apply Filters</button>
+                    <button onclick="game.resetFilters()">重設篩選 Reset Filters</button>
+                </div>
+            </div>
+            
+            <div id="stats">
+                <h3>📊 統計 Statistics</h3>
+                <div class="stat">
+                    <span>分數 Score:</span>
+                    <span class="stat-value" id="score">0</span>
+                </div>
+                <div class="stat">
+                    <span>最高分 High Score:</span>
+                    <span class="stat-value" id="high-score">0</span>
+                </div>
+                <div class="stat">
+                    <span>完成字詞 Words Cleared:</span>
+                    <span class="stat-value" id="words-cleared">0</span>
+                </div>
+                <div class="stat">
+                    <span>錯過字詞 Missed Words:</span>
+                    <span class="stat-value" id="missed-words">0</span>
+                </div>
+                <div class="stat">
+                    <span>速度等級 Speed Level:</span>
+                    <span class="stat-value" id="speed-level">1</span>
+                </div>
+                <div class="stat">
+                    <span>每分鐘字數 WPM:</span>
+                    <span class="stat-value" id="wpm">0</span>
+                </div>
+                <div class="stat">
+                    <span>遊戲時間 Game Time:</span>
+                    <span class="stat-value" id="game-time">0:00</span>
+                </div>
+            </div>
+            
+            <div id="cleared-words-section">
+                <h3>✅ 已完成字詞 Cleared Words</h3>
+                <div id="cleared-words"></div>
+            </div>
+        </div>
+        
+        <div id="game-over-overlay">
+            <div class="game-over-content">
+                <h2>Game Over!</h2>
+                <p id="game-over-message"></p>
+                <div id="final-stats"></div>
+                <button class="primary-btn" onclick="game.resetGame()">Play Again</button>
+                <button onclick="hideGameOver()">Close</button>
+            </div>
+        </div>
+        
+        <div id="about-modal">
+            <div class="about-content">
+                <button class="close-btn" onclick="hideAbout()">&times;</button>
+                <h2>TypeDuckQ 打得隙</h2>
+                
+                <h4>How to Play 玩法:</h4>
+                <ul>
+                    <li>Type the Cantonese pronunciation to catch falling words</li>
+                    <li>Speed increases as you progress</li>
+                    <li>Game ends after missing 10 words</li>
+                    <li>Duck grows bigger with each word typed</li>
+                </ul>
+                
+                <h4>Credits:</h4>
+                <p>Created by <strong>Chaak 阿擇</strong></p>
+                <p>Find me on Threads: <strong><a href='http://threads.net/@aa3zaak6'>@aa3zaak6</a></strong></p>
+                
+                <p><em>Made with Phaser 3</em></p>
+            </div>
+        </div>
+
+        <div id="word-history-modal">
+            <div class="about-content" style="max-width: 800px; max-height: 80vh; overflow-y: auto;">
+                <button class="close-btn" onclick="hideWordHistory()">&times;</button>
+                <h2>🗂️ 字詞記錄 Word History</h2>
+                <p>你打過嘅所有字詞 All words you've ever typed</p>
+                <div id="word-history-content"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.min.js"></script>
+    <script src="js/game.js"></script>
+    
+    <script>
+        function showAbout() {
+            document.getElementById('about-modal').style.display = 'flex';
+        }
+        
+        function hideAbout() {
+            document.getElementById('about-modal').style.display = 'none';
+        }
+        
+        function showWordHistory() {
+            const modal = document.getElementById('word-history-modal');
+            const content = document.getElementById('word-history-content');
+            
+            const wordHistory = JSON.parse(localStorage.getItem('typingDuckWordHistory') || '[]');
+            const allWords = window.game ? window.game.filteredWords : [];
+            
+            // Create table
+            let tableHTML = `
+                <table style="width: 100%; border-collapse: collapse; margin-top: 20px;">
+                    <thead>
+                        <tr style="background: rgba(15, 52, 96, 0.8);">
+                            <th style="padding: 10px; border: 1px solid #4ade80;">字 Char</th>
+                            <th style="padding: 10px; border: 1px solid #4ade80;">粵拼 LSHK</th>
+                            <th style="padding: 10px; border: 1px solid #4ade80;">英文 English</th>
+                            <th style="padding: 10px; border: 1px solid #4ade80;">次數 Count</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+            
+            // Add typed words
+            wordHistory.forEach(word => {
+                // Add line breaks to English translation
+                const engWithLineBreaks = word.eng.replace(/,\s*/g, '<br>');
+                
+                tableHTML += `
+                    <tr style="background: rgba(15, 52, 96, 0.3);">
+                        <td style="padding: 8px; border: 1px solid #4ade80; text-align: center;">
+                            <a href="https://words.hk/zidin/${word.char}" target="_blank" style="color: #4ade80; text-decoration: none;">
+                                ${word.char}
+                            </a>
+                        </td>
+                        <td style="padding: 8px; border: 1px solid #4ade80;">${word.lshk}</td>
+                        <td style="padding: 8px; border: 1px solid #4ade80;">${engWithLineBreaks}</td>
+                        <td style="padding: 8px; border: 1px solid #4ade80; text-align: center;">${word.count}</td>
+                    </tr>
+                `;
+            });
+            
+            // Add never encountered words (grayed out)
+            allWords.forEach(word => {
+                const alreadyTyped = wordHistory.find(w => w.char === word.char);
+                if (!alreadyTyped) {
+                    // Add line breaks to English translation
+                    const engWithLineBreaks = word.eng.replace(/,\s*/g, '<br>');
+                    
+                    tableHTML += `
+                        <tr style="background: rgba(100, 100, 100, 0.2); opacity: 0.5;">
+                            <td style="padding: 8px; border: 1px solid #666; text-align: center; color: #888;">
+                                ${word.char}
+                            </td>
+                            <td style="padding: 8px; border: 1px solid #666; color: #888;">${word.lshk}</td>
+                            <td style="padding: 8px; border: 1px solid #666; color: #888;">${engWithLineBreaks}</td>
+                            <td style="padding: 8px; border: 1px solid #666; text-align: center; color: #888;">0</td>
+                        </tr>
+                    `;
+                }
+            });
+            
+            tableHTML += '</tbody></table>';
+            content.innerHTML = tableHTML;
+            modal.style.display = 'flex';
+        }
+        
+        function hideWordHistory() {
+            document.getElementById('word-history-modal').style.display = 'none';
+        }
+        
+        function hideGameOver() {
+            document.getElementById('game-over-overlay').style.display = 'none';
+        }
+        
+        function startGameWithTone(withTones) {
+            if (window.game) {
+                window.game.tonelessMode = !withTones;
+                document.getElementById('toneless-mode').checked = !withTones;
+                window.game.startGame();
+                
+                // Hide game start modal and gray out start buttons
+                document.getElementById('start-game-modal').style.display = 'none';
+                document.getElementById('start-tone-btn').disabled = true;
+                document.getElementById('start-toneless-btn').disabled = true;
+            }
+        }
+        
+        function enableStartButtons() {
+            document.getElementById('start-tone-btn').disabled = false;
+            document.getElementById('start-toneless-btn').disabled = false;
+            document.getElementById('start-game-modal').style.display = 'flex';
+        }
+        
+        function toggleSettings() {
+            const settingsPanel = document.getElementById('settings-panel');
+            const isHidden = settingsPanel.classList.contains('hidden-section');
+            
+            if (isHidden) {
+                settingsPanel.classList.remove('hidden-section');
+                document.getElementById('settings-btn').style.background = 'rgba(15, 52, 96, 0.9)';
+            } else {
+                settingsPanel.classList.add('hidden-section');
+                document.getElementById('settings-btn').style.background = 'rgba(22, 33, 62, 0.9)';
+            }
+        }
+        
+        // Setup display control listeners
+        document.addEventListener('DOMContentLoaded', () => {
+            const tonelessModeControl = document.getElementById('toneless-mode');
+            const cardSizeControl = document.getElementById('card-size');
+            const charColorControl = document.getElementById('char-color');
+            const engColorControl = document.getElementById('eng-color');
+            const cardColorControl = document.getElementById('card-color');
+            
+            tonelessModeControl.addEventListener('change', () => {
+                if (window.game) {
+                    window.game.tonelessMode = tonelessModeControl.checked;
+                }
+            });
+            
+            cardSizeControl.addEventListener('input', () => {
+                if (window.game) window.game.updateDisplaySettings();
+            });
+            
+            charColorControl.addEventListener('input', () => {
+                if (window.game) window.game.updateDisplaySettings();
+            });
+            
+            engColorControl.addEventListener('input', () => {
+                if (window.game) window.game.updateDisplaySettings();
+            });
+            
+            cardColorControl.addEventListener('input', () => {
+                if (window.game) window.game.updateDisplaySettings();
+            });
+        });
+    </script>
+</body>
+</html>

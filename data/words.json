@@ -1,0 +1,5180 @@
+[
+  {
+    "char": "鴨",
+    "lshk": "aap3",
+    "eng": "duck",
+    "labels": ["animal", "water", "common"]
+  },
+  {
+    "char": "狗",
+    "lshk": "gau2",
+    "eng": "dog",
+    "labels": ["animal", "pet", "common"]
+  },
+  {
+    "char": "貓",
+    "lshk": "maau1",
+    "eng": "cat",
+    "labels": ["animal", "pet", "common"]
+  },
+  {
+    "char": "魚",
+    "lshk": "jyu4",
+    "eng": "fish",
+    "labels": ["animal", "water", "food"]
+  },
+  {
+    "char": "鳥",
+    "lshk": "niu5",
+    "eng": "bird",
+    "labels": ["animal", "sky", "common"]
+  },
+  {
+    "char": "馬",
+    "lshk": "maa5",
+    "eng": "horse",
+    "labels": ["animal", "large", "transport"]
+  },
+  {
+    "char": "牛",
+    "lshk": "ngau4",
+    "eng": "cow",
+    "labels": ["animal", "large", "farm"]
+  },
+  {
+    "char": "豬",
+    "lshk": "zyu1",
+    "eng": "pig",
+    "labels": ["animal", "farm", "food"]
+  },
+  {
+    "char": "羊",
+    "lshk": "joeng4",
+    "eng": "sheep",
+    "labels": ["animal", "farm", "wool"]
+  },
+  {
+    "char": "雞",
+    "lshk": "gai1",
+    "eng": "chicken",
+    "labels": ["animal", "farm", "food", "common"]
+  },
+  {
+    "char": "水",
+    "lshk": "seoi2",
+    "eng": "water",
+    "labels": ["nature", "drink", "basic", "common"]
+  },
+  {
+    "char": "火",
+    "lshk": "fo2",
+    "eng": "fire",
+    "labels": ["nature", "element", "danger"]
+  },
+  {
+    "char": "土",
+    "lshk": "tou2",
+    "eng": "earth",
+    "labels": ["nature", "element", "basic"]
+  },
+  {
+    "char": "木",
+    "lshk": "muk6",
+    "eng": "wood",
+    "labels": ["nature", "element", "plant"]
+  },
+  {
+    "char": "金",
+    "lshk": "gam1",
+    "eng": "gold",
+    "labels": ["nature", "element", "valuable"]
+  },
+  {
+    "char": "山",
+    "lshk": "saan1",
+    "eng": "mountain",
+    "labels": ["nature", "geography", "high"]
+  },
+  {
+    "char": "河",
+    "lshk": "ho4",
+    "eng": "river",
+    "labels": ["nature", "water", "geography"]
+  },
+  {
+    "char": "海",
+    "lshk": "hoi2",
+    "eng": "sea",
+    "labels": ["nature", "water", "large"]
+  },
+  {
+    "char": "天",
+    "lshk": "tin1",
+    "eng": "sky",
+    "labels": ["nature", "sky", "basic"]
+  },
+  {
+    "char": "地",
+    "lshk": "dei6",
+    "eng": "ground",
+    "labels": ["nature", "basic", "common"]
+  },
+  {
+    "char": "人",
+    "lshk": "jan4",
+    "eng": "person",
+    "labels": ["human", "basic", "common"]
+  },
+  {
+    "char": "男",
+    "lshk": "naam4",
+    "eng": "male",
+    "labels": ["human", "gender", "common"]
+  },
+  {
+    "char": "女",
+    "lshk": "neoi5",
+    "eng": "female",
+    "labels": ["human", "gender", "common"]
+  },
+  {
+    "char": "子",
+    "lshk": "zi2",
+    "eng": "child",
+    "labels": ["human", "family", "young"]
+  },
+  {
+    "char": "母",
+    "lshk": "mou5",
+    "eng": "mother",
+    "labels": ["human", "family", "parent"]
+  },
+  {
+    "char": "父",
+    "lshk": "fu6",
+    "eng": "father",
+    "labels": ["human", "family", "parent"]
+  },
+  {
+    "char": "紅",
+    "lshk": "hung4",
+    "eng": "red",
+    "labels": ["color", "common", "bright"]
+  },
+  {
+    "char": "藍",
+    "lshk": "laam4",
+    "eng": "blue",
+    "labels": ["color", "common", "cool"]
+  },
+  {
+    "char": "綠",
+    "lshk": "luk6",
+    "eng": "green",
+    "labels": ["color", "common", "nature"]
+  },
+  {
+    "char": "黃",
+    "lshk": "wong4",
+    "eng": "yellow",
+    "labels": ["color", "common", "bright"]
+  },
+  {
+    "char": "黑",
+    "lshk": "haak1",
+    "eng": "black",
+    "labels": ["color", "common", "dark"]
+  },
+  {
+    "char": "白",
+    "lshk": "baak6",
+    "eng": "white",
+    "labels": ["color", "common", "light"]
+  },
+  {
+    "char": "一",
+    "lshk": "jat1",
+    "eng": "one",
+    "labels": ["number", "basic", "common"]
+  },
+  {
+    "char": "二",
+    "lshk": "ji6",
+    "eng": "two",
+    "labels": ["number", "basic", "common"]
+  },
+  {
+    "char": "三",
+    "lshk": "saam1",
+    "eng": "three",
+    "labels": ["number", "basic", "common"]
+  },
+  {
+    "char": "四",
+    "lshk": "sei3",
+    "eng": "four",
+    "labels": ["number", "basic", "common"]
+  },
+  {
+    "char": "五",
+    "lshk": "ng5",
+    "eng": "five",
+    "labels": ["number", "basic", "common"]
+  },
+  {
+    "char": "六",
+    "lshk": "luk6",
+    "eng": "six",
+    "labels": ["number", "basic", "common"]
+  },
+  {
+    "char": "七",
+    "lshk": "cat1",
+    "eng": "seven",
+    "labels": ["number", "basic", "common"]
+  },
+  {
+    "char": "八",
+    "lshk": "baat3",
+    "eng": "eight",
+    "labels": ["number", "basic", "common"]
+  },
+  {
+    "char": "九",
+    "lshk": "gau2",
+    "eng": "nine",
+    "labels": ["number", "basic", "common"]
+  },
+  {
+    "char": "十",
+    "lshk": "sap6",
+    "eng": "ten",
+    "labels": ["number", "basic", "common"]
+  },
+  {
+    "char": "大",
+    "lshk": "daai6",
+    "eng": "big",
+    "labels": ["size", "common", "basic"]
+  },
+  {
+    "char": "小",
+    "lshk": "siu2",
+    "eng": "small",
+    "labels": ["size", "common", "basic"]
+  },
+  {
+    "char": "高",
+    "lshk": "gou1",
+    "eng": "tall",
+    "labels": ["size", "height", "common"]
+  },
+  {
+    "char": "低",
+    "lshk": "dai1",
+    "eng": "low",
+    "labels": ["size", "height", "common"]
+  },
+  {
+    "char": "長",
+    "lshk": "coeng4",
+    "eng": "long",
+    "labels": ["size", "length", "common"]
+  },
+  {
+    "char": "短",
+    "lshk": "dyun2",
+    "eng": "short",
+    "labels": ["size", "length", "common"]
+  },
+  {
+    "char": "香港",
+    "lshk": "hoeng1 gong2",
+    "eng": "Hong Kong",
+    "labels": ["place", "city", "common"]
+  },
+  {
+    "char": "學校",
+    "lshk": "hok6 haau6",
+    "eng": "school",
+    "labels": ["education", "building", "common"]
+  },
+  {
+    "char": "醫院",
+    "lshk": "ji1 jyun2",
+    "eng": "hospital",
+    "labels": ["building", "health", "common"]
+  },
+  {
+    "char": "公園",
+    "lshk": "gung1 jyun2",
+    "eng": "park",
+    "labels": ["place", "nature", "common"]
+  },
+  {
+    "char": "銀行",
+    "lshk": "ngan4 hong4",
+    "eng": "bank",
+    "labels": ["building", "money", "common"]
+  },
+  {
+    "char": "餐廳",
+    "lshk": "caan1 teng1",
+    "eng": "restaurant",
+    "labels": ["building", "food", "common"]
+  },
+  {
+    "char": "商店",
+    "lshk": "soeng1 dim3",
+    "eng": "shop",
+    "labels": ["building", "shopping", "common"]
+  },
+  {
+    "char": "電影院",
+    "lshk": "din6 jing2 jyun2",
+    "eng": "cinema",
+    "labels": ["building", "entertainment", "common"]
+  },
+  {
+    "char": "朋友",
+    "lshk": "pang4 jau5",
+    "eng": "friend",
+    "labels": ["human", "relationship", "common"]
+  },
+  {
+    "char": "老師",
+    "lshk": "lou5 si1",
+    "eng": "teacher",
+    "labels": ["human", "education", "common"]
+  },
+  {
+    "char": "學生",
+    "lshk": "hok6 saang1",
+    "eng": "student",
+    "labels": ["human", "education", "common"]
+  },
+  {
+    "char": "醫生",
+    "lshk": "ji1 sang1",
+    "eng": "doctor",
+    "labels": ["human", "health", "common"]
+  },
+  {
+    "char": "香港",
+    "lshk": "hoeng1 gong2",
+    "eng": "Hong Kong",
+    "labels": ["place", "common"]
+  },
+  {
+    "char": "可以",
+    "lshk": "ho2 ji5",
+    "eng": "can, may",
+    "labels": ["modal", "common"]
+  },
+  {
+    "char": "自己",
+    "lshk": "zi6 gei2",
+    "eng": "oneself",
+    "labels": ["pronoun", "common"]
+  },
+  {
+    "char": "一個",
+    "lshk": "jat1 go3",
+    "eng": "one, a",
+    "labels": ["number", "common"]
+  },
+  {
+    "char": "不過",
+    "lshk": "bat1 gwo3",
+    "eng": "but, however",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "因為",
+    "lshk": "jan1 wai6",
+    "eng": "because",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "其實",
+    "lshk": "kei4 sat6",
+    "eng": "actually",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "真係",
+    "lshk": "zan1 hai6",
+    "eng": "really",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "已經",
+    "lshk": "ji5 ging1",
+    "eng": "already",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "如果",
+    "lshk": "jyu4 gwo2",
+    "eng": "if",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "問題",
+    "lshk": "man6 tai4",
+    "eng": "problem, question",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "所以",
+    "lshk": "so2 ji5",
+    "eng": "so, therefore",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "政府",
+    "lshk": "zing3 fu2",
+    "eng": "government",
+    "labels": ["politics", "common"]
+  },
+  {
+    "char": "唔係",
+    "lshk": "m4 hai6",
+    "eng": "not, is not",
+    "labels": ["negative", "colloquial"]
+  },
+  {
+    "char": "中國",
+    "lshk": "zung1 gwok3",
+    "eng": "China",
+    "labels": ["place", "common"]
+  },
+  {
+    "char": "都係",
+    "lshk": "dou1 hai6",
+    "eng": "also is, still is",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "之後",
+    "lshk": "zi1 hau6",
+    "eng": "after, afterwards",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "可能",
+    "lshk": "ho2 nang4",
+    "eng": "possible, maybe",
+    "labels": ["modal", "common"]
+  },
+  {
+    "char": "覺得",
+    "lshk": "gok3 dak1",
+    "eng": "feel, think",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "公司",
+    "lshk": "gung1 si1",
+    "eng": "company",
+    "labels": ["business", "common"]
+  },
+  {
+    "char": "其他",
+    "lshk": "kei4 taa1",
+    "eng": "other",
+    "labels": ["pronoun", "common"]
+  },
+  {
+    "char": "應該",
+    "lshk": "jing1 goi1",
+    "eng": "should",
+    "labels": ["modal", "common"]
+  },
+  {
+    "char": "大家",
+    "lshk": "daai6 gaa1",
+    "eng": "everyone",
+    "labels": ["pronoun", "common"]
+  },
+  {
+    "char": "時間",
+    "lshk": "si4 gaan3",
+    "eng": "time",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "希望",
+    "lshk": "hei1 mong6",
+    "eng": "hope",
+    "labels": ["verb", "emotion"]
+  },
+  {
+    "char": "開始",
+    "lshk": "hoi1 ci2",
+    "eng": "start, begin",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "朋友",
+    "lshk": "pang4 jau5",
+    "eng": "friend",
+    "labels": ["human", "common"]
+  },
+  {
+    "char": "今日",
+    "lshk": "gam1 jat6",
+    "eng": "today",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "好似",
+    "lshk": "hou2 ci5",
+    "eng": "like, seem",
+    "labels": ["comparison", "colloquial"]
+  },
+  {
+    "char": "雖然",
+    "lshk": "seoi1 jin4",
+    "eng": "although",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "最後",
+    "lshk": "zeoi3 hau6",
+    "eng": "finally, last",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "沒有",
+    "lshk": "mut6 jau5",
+    "eng": "not have",
+    "labels": ["negative", "common"]
+  },
+  {
+    "char": "日本",
+    "lshk": "jat6 bun2",
+    "eng": "Japan",
+    "labels": ["place", "common"]
+  },
+  {
+    "char": "好多",
+    "lshk": "hou2 do1",
+    "eng": "many, a lot",
+    "labels": ["quantity", "colloquial"]
+  },
+  {
+    "char": "今年",
+    "lshk": "gam1 nin4",
+    "eng": "this year",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "唔好",
+    "lshk": "m4 hou2",
+    "eng": "don't, not good",
+    "labels": ["negative", "colloquial"]
+  },
+  {
+    "char": "支持",
+    "lshk": "zi1 ci4",
+    "eng": "support",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "繼續",
+    "lshk": "gai3 zuk6",
+    "eng": "continue",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "機會",
+    "lshk": "gei1 wui6",
+    "eng": "opportunity, chance",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "之前",
+    "lshk": "zi1 cin4",
+    "eng": "before",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "一定",
+    "lshk": "jat1 ding6",
+    "eng": "definitely, certain",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "唔到",
+    "lshk": "m4 dou2",
+    "eng": "cannot reach, unable to",
+    "labels": ["negative", "colloquial"]
+  },
+  {
+    "char": "呢個",
+    "lshk": "ni1 go3",
+    "eng": "this",
+    "labels": ["pronoun", "colloquial"]
+  },
+  {
+    "char": "記者",
+    "lshk": "gei3 ze2",
+    "eng": "journalist, reporter",
+    "labels": ["human", "media"]
+  },
+  {
+    "char": "一樣",
+    "lshk": "jat1 joeng6",
+    "eng": "same",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "今次",
+    "lshk": "gam1 ci3",
+    "eng": "this time",
+    "labels": ["time", "colloquial"]
+  },
+  {
+    "char": "影響",
+    "lshk": "jing2 hoeng2",
+    "eng": "influence, affect",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "發現",
+    "lshk": "faat3 jin6",
+    "eng": "discover, find",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "就係",
+    "lshk": "zau6 hai6",
+    "eng": "that is, it is",
+    "labels": ["copula", "colloquial"]
+  },
+  {
+    "char": "他們",
+    "lshk": "taa1 mun4",
+    "eng": "they, them",
+    "labels": ["pronoun", "common"]
+  },
+  {
+    "char": "個月",
+    "lshk": "go3 jyut6",
+    "eng": "month",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "港人",
+    "lshk": "gong2 jan4",
+    "eng": "Hong Kong people",
+    "labels": ["human", "place"]
+  },
+  {
+    "char": "台灣",
+    "lshk": "toi4 waan1",
+    "eng": "Taiwan",
+    "labels": ["place", "common"]
+  },
+  {
+    "char": "原來",
+    "lshk": "jyun4 loi4",
+    "eng": "originally, turns out",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "兩個",
+    "lshk": "loeng5 go3",
+    "eng": "two",
+    "labels": ["number", "common"]
+  },
+  {
+    "char": "個人",
+    "lshk": "go3 jan4",
+    "eng": "person, individual",
+    "labels": ["human", "common"]
+  },
+  {
+    "char": "見到",
+    "lshk": "gin3 dou2",
+    "eng": "see, meet",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "認為",
+    "lshk": "jing6 wai4",
+    "eng": "think, believe",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "英國",
+    "lshk": "jing1 gwok3",
+    "eng": "United Kingdom",
+    "labels": ["place", "common"]
+  },
+  {
+    "char": "世界",
+    "lshk": "sai3 gaai3",
+    "eng": "world",
+    "labels": ["place", "common"]
+  },
+  {
+    "char": "唔知",
+    "lshk": "m4 zi1",
+    "eng": "don't know",
+    "labels": ["negative", "colloquial"]
+  },
+  {
+    "char": "我們",
+    "lshk": "ngo5 mun4",
+    "eng": "we, us",
+    "labels": ["pronoun", "common"]
+  },
+  {
+    "char": "香港人",
+    "lshk": "hoeng1 gong2 jan4",
+    "eng": "Hong Kong people",
+    "labels": ["human", "place"]
+  },
+  {
+    "char": "工作",
+    "lshk": "gung1 zok3",
+    "eng": "work",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "學生",
+    "lshk": "hok6 saang1",
+    "eng": "student",
+    "labels": ["human", "education"]
+  },
+  {
+    "char": "佢哋",
+    "lshk": "keoi5 dei6",
+    "eng": "they, them",
+    "labels": ["pronoun", "colloquial"]
+  },
+  {
+    "char": "需要",
+    "lshk": "seoi1 jiu3",
+    "eng": "need",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "市民",
+    "lshk": "si5 man4",
+    "eng": "citizen",
+    "labels": ["human", "politics"]
+  },
+  {
+    "char": "點解",
+    "lshk": "dim2 gaai2",
+    "eng": "why",
+    "labels": ["question", "colloquial"]
+  },
+  {
+    "char": "知道",
+    "lshk": "zi1 dou3",
+    "eng": "know",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "生活",
+    "lshk": "sang1 wut6",
+    "eng": "life, living",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "地方",
+    "lshk": "dei6 fong1",
+    "eng": "place",
+    "labels": ["place", "common"]
+  },
+  {
+    "char": "我哋",
+    "lshk": "ngo5 dei6",
+    "eng": "we, us",
+    "labels": ["pronoun", "colloquial"]
+  },
+  {
+    "char": "重要",
+    "lshk": "zung6 jiu3",
+    "eng": "important",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "分鐘",
+    "lshk": "fan1 zung1",
+    "eng": "minute",
+    "labels": ["time", "unit"]
+  },
+  {
+    "char": "出現",
+    "lshk": "ceot1 jin6",
+    "eng": "appear, emerge",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "都會",
+    "lshk": "dou1 wui6",
+    "eng": "will (certainly), metropolitan",
+    "labels": ["modal", "future"]
+  },
+  {
+    "char": "係咪",
+    "lshk": "hai6 mai6",
+    "eng": "is it? (question particle)",
+    "labels": ["question", "colloquial"]
+  },
+  {
+    "char": "要求",
+    "lshk": "jiu1 kau4",
+    "eng": "request, demand",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "一次",
+    "lshk": "jat1 ci3",
+    "eng": "once, one time",
+    "labels": ["number", "measure word"]
+  },
+  {
+    "char": "情況",
+    "lshk": "cing4 fong3",
+    "eng": "situation, circumstances",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "接受",
+    "lshk": "zip3 sau6",
+    "eng": "accept",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "一直",
+    "lshk": "jat1 zik6",
+    "eng": "continuously, all along",
+    "labels": ["adverb", "time"]
+  },
+  {
+    "char": "所有",
+    "lshk": "so2 jau5",
+    "eng": "all, every",
+    "labels": ["quantity", "common"]
+  },
+  {
+    "char": "市場",
+    "lshk": "si5 coeng4",
+    "eng": "market",
+    "labels": ["business", "place"]
+  },
+  {
+    "char": "包括",
+    "lshk": "baau1 kut3",
+    "eng": "include, comprise",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "相信",
+    "lshk": "soeng1 seon3",
+    "eng": "believe, trust",
+    "labels": ["verb", "emotion"]
+  },
+  {
+    "char": "特別",
+    "lshk": "dak6 bit6",
+    "eng": "special, especially",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "其中",
+    "lshk": "kei4 zung1",
+    "eng": "among them, within",
+    "labels": ["pronoun", "common"]
+  },
+  {
+    "char": "仲有",
+    "lshk": "zung6 jau5",
+    "eng": "also, in addition (colloquial)",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "結果",
+    "lshk": "git3 gwo2",
+    "eng": "result, outcome",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "分別",
+    "lshk": "fan1 bit6",
+    "eng": "difference, distinction",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "第一",
+    "lshk": "dai6 jat1",
+    "eng": "first, number one",
+    "labels": ["number", "ordinal"]
+  },
+  {
+    "char": "都好",
+    "lshk": "dou1 hou2",
+    "eng": "also good, whatever",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "完全",
+    "lshk": "jyun4 cyun4",
+    "eng": "completely, entirely",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "另一",
+    "lshk": "ling6 jat1",
+    "eng": "another, the other",
+    "labels": ["pronoun", "common"]
+  },
+  {
+    "char": "決定",
+    "lshk": "kyut3 ding6",
+    "eng": "decide, decision",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "國家",
+    "lshk": "gwok3 gaa1",
+    "eng": "country, nation",
+    "labels": ["place", "politics"]
+  },
+  {
+    "char": "就算",
+    "lshk": "zau6 syun3",
+    "eng": "even if, even though",
+    "labels": ["conjunction", "colloquial"]
+  },
+  {
+    "char": "只係",
+    "lshk": "zi2 hai6",
+    "eng": "only, just (colloquial)",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "然後",
+    "lshk": "jin4 hau6",
+    "eng": "then, afterwards",
+    "labels": ["conjunction", "time"]
+  },
+  {
+    "char": "代表",
+    "lshk": "doi6 biu2",
+    "eng": "represent, representative",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "另外",
+    "lshk": "ling6 ngoi6",
+    "eng": "in addition, another",
+    "labels": ["adverb", "conjunction"]
+  },
+  {
+    "char": "警方",
+    "lshk": "ging2 fong1",
+    "eng": "police (side)",
+    "labels": ["law enforcement", "organization"]
+  },
+  {
+    "char": "以為",
+    "lshk": "ji5 wai4",
+    "eng": "assume, think (mistakenly)",
+    "labels": ["verb", "emotion"]
+  },
+  {
+    "char": "電話",
+    "lshk": "din6 waa2",
+    "eng": "telephone, phone call",
+    "labels": ["communication", "technology"]
+  },
+  {
+    "char": "經濟",
+    "lshk": "ging1 zai3",
+    "eng": "economy, economic",
+    "labels": ["economy", "finance"]
+  },
+  {
+    "char": "而且",
+    "lshk": "ji4 ce2",
+    "eng": "moreover, in addition",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "活動",
+    "lshk": "wut6 dung6",
+    "eng": "activity, event",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "全部",
+    "lshk": "cyun4 bou6",
+    "eng": "all, entire",
+    "labels": ["quantity", "common"]
+  },
+  {
+    "char": "發生",
+    "lshk": "faat3 sang1",
+    "eng": "happen, occur",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "成為",
+    "lshk": "sing4 wai4",
+    "eng": "become",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "一齊",
+    "lshk": "jat1 cai4",
+    "eng": "together",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "本身",
+    "lshk": "bun2 san1",
+    "eng": "itself, oneself",
+    "labels": ["pronoun", "common"]
+  },
+  {
+    "char": "只有",
+    "lshk": "zi2 jau5",
+    "eng": "only have, merely",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "或者",
+    "lshk": "waak6 ze2",
+    "eng": "or, perhaps",
+    "labels": ["conjunction", "adverb"]
+  },
+  {
+    "char": "球員",
+    "lshk": "kau4 jyun4",
+    "eng": "player (ball games)",
+    "labels": ["sport", "human"]
+  },
+  {
+    "char": "社會",
+    "lshk": "se5 wui2",
+    "eng": "society",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "成功",
+    "lshk": "sing4 gung1",
+    "eng": "succeed, successful",
+    "labels": ["verb", "adjective"]
+  },
+  {
+    "char": "當時",
+    "lshk": "dong1 si4",
+    "eng": "at that time, then",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "國際",
+    "lshk": "gwok3 zai3",
+    "eng": "international",
+    "labels": ["adjective", "politics"]
+  },
+  {
+    "char": "政治",
+    "lshk": "zing3 zi6",
+    "eng": "politics",
+    "labels": ["politics", "noun"]
+  },
+  {
+    "char": "發展",
+    "lshk": "faat3 zin2",
+    "eng": "develop, development",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "感覺",
+    "lshk": "gam2 gok3",
+    "eng": "feel, feeling",
+    "labels": ["verb", "emotion"]
+  },
+  {
+    "char": "過去",
+    "lshk": "gwo3 heoi3",
+    "eng": "past, gone",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "資料",
+    "lshk": "zi1 liu2",
+    "eng": "data, information",
+    "labels": ["noun", "technology"]
+  },
+  {
+    "char": "建議",
+    "lshk": "gin3 ji5",
+    "eng": "suggest, proposal",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "事件",
+    "lshk": "si6 gin2",
+    "eng": "incident, event",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "以前",
+    "lshk": "ji5 cin4",
+    "eng": "before, in the past",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "但係",
+    "lshk": "daan6 hai6",
+    "eng": "but, however (colloquial)",
+    "labels": ["conjunction", "colloquial"]
+  },
+  {
+    "char": "部份",
+    "lshk": "bou6 fan6",
+    "eng": "part, portion",
+    "labels": ["quantity", "common"]
+  },
+  {
+    "char": "加上",
+    "lshk": "gaa1 soeng5",
+    "eng": "add, in addition",
+    "labels": ["verb", "conjunction"]
+  },
+  {
+    "char": "當然",
+    "lshk": "dong1 jin4",
+    "eng": "of course, naturally",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "內地",
+    "lshk": "noi6 dei6",
+    "eng": "mainland (China)",
+    "labels": ["place", "politics"]
+  },
+  {
+    "char": "就是",
+    "lshk": "zau6 si6",
+    "eng": "that is, exactly (formal)",
+    "labels": ["copula", "formal"]
+  },
+  {
+    "char": "表現",
+    "lshk": "biu2 jin6",
+    "eng": "performance, express",
+    "labels": ["noun", "verb"]
+  },
+  {
+    "char": "投資",
+    "lshk": "tau4 zi1",
+    "eng": "invest, investment",
+    "labels": ["finance", "business"]
+  },
+  {
+    "char": "人士",
+    "lshk": "jan4 si6",
+    "eng": "person (group of), public figure",
+    "labels": ["human", "common"]
+  },
+  {
+    "char": "根本",
+    "lshk": "gan1 bun2",
+    "eng": "fundamentally, at all",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "準備",
+    "lshk": "zeon2 bei6",
+    "eng": "prepare, preparation",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "選擇",
+    "lshk": "syun2 zaak6",
+    "eng": "choose, choice",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "當年",
+    "lshk": "dong1 nin4",
+    "eng": "in those years, back then",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "大陸",
+    "lshk": "daai6 luk6",
+    "eng": "mainland (China) (colloquial)",
+    "labels": ["place", "colloquial"]
+  },
+  {
+    "char": "中共",
+    "lshk": "zung1 gung6",
+    "eng": "Chinese Communist Party (CCP)",
+    "labels": ["politics", "organization"]
+  },
+  {
+    "char": "甚至",
+    "lshk": "sam6 zi3",
+    "eng": "even, so much so that",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "任何",
+    "lshk": "jam6 ho4",
+    "eng": "any",
+    "labels": ["pronoun", "common"]
+  },
+  {
+    "char": "主要",
+    "lshk": "zyu2 jiu3",
+    "eng": "main, primary",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "有關",
+    "lshk": "jau5 gwaan1",
+    "eng": "related to, concerning",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "消息",
+    "lshk": "siu1 sik1",
+    "eng": "news, information",
+    "labels": ["noun", "communication"]
+  },
+  {
+    "char": "申請",
+    "lshk": "san1 cing2",
+    "eng": "apply, application",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "有冇",
+    "lshk": "jau5 mou5",
+    "eng": "have or not? (colloquial)",
+    "labels": ["question", "colloquial"]
+  },
+  {
+    "char": "直接",
+    "lshk": "zik6 zip6",
+    "eng": "direct, directly",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "突然",
+    "lshk": "dat6 jin4",
+    "eng": "suddenly, abrupt",
+    "labels": ["adverb", "adjective"]
+  },
+  {
+    "char": "同時",
+    "lshk": "tung4 si4",
+    "eng": "at the same time, concurrently",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "關係",
+    "lshk": "gwaan1 hai6",
+    "eng": "relationship, connection",
+    "labels": ["noun", "social"]
+  },
+  {
+    "char": "最近",
+    "lshk": "zeoi3 gan6",
+    "eng": "recently, nearest",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "電影",
+    "lshk": "din6 jing2",
+    "eng": "movie, film",
+    "labels": ["entertainment", "art"]
+  },
+  {
+    "char": "進行",
+    "lshk": "zeon3 hang4",
+    "eng": "carry out, conduct",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "至於",
+    "lshk": "zi3 jyu1",
+    "eng": "as for, as to",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "開心",
+    "lshk": "hoi1 sam1",
+    "eng": "happy, joyful",
+    "labels": ["emotion", "adjective"]
+  },
+  {
+    "char": "同埋",
+    "lshk": "tung4 maai4",
+    "eng": "and, together with (colloquial)",
+    "labels": ["conjunction", "colloquial"]
+  },
+  {
+    "char": "計劃",
+    "lshk": "gai3 waak6",
+    "eng": "plan, project",
+    "labels": ["noun", "verb"]
+  },
+  {
+    "char": "終於",
+    "lshk": "zung1 jyu1",
+    "eng": "finally, at last",
+    "labels": ["adverb", "time"]
+  },
+  {
+    "char": "運動",
+    "lshk": "wan6 dung6",
+    "eng": "sport, exercise, movement",
+    "labels": ["sport", "activity"]
+  },
+  {
+    "char": "正常",
+    "lshk": "zing3 soeng4",
+    "eng": "normal, regular",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "調查",
+    "lshk": "diu6 caa4",
+    "eng": "investigate, investigation",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "行動",
+    "lshk": "hang4 dung6",
+    "eng": "action, operation",
+    "labels": ["noun", "verb"]
+  },
+  {
+    "char": "成日",
+    "lshk": "seng4 jat6",
+    "eng": "all day, often (colloquial)",
+    "labels": ["time", "colloquial"]
+  },
+  {
+    "char": "對方",
+    "lshk": "deoi3 fong1",
+    "eng": "the other party, opponent",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "鍾意",
+    "lshk": "zung1 ji3",
+    "eng": "like, prefer (colloquial)",
+    "labels": ["verb", "emotion", "colloquial"]
+  },
+  {
+    "char": "議員",
+    "lshk": "ji5 jyun4",
+    "eng": "councilor, legislator",
+    "labels": ["politics", "human"]
+  },
+  {
+    "char": "例如",
+    "lshk": "lai6 jyu4",
+    "eng": "for example",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "方面",
+    "lshk": "fong1 min6",
+    "eng": "aspect, side",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "垃圾",
+    "lshk": "laap6 saap3",
+    "eng": "rubbish, garbage",
+    "labels": ["noun", "material"]
+  },
+  {
+    "char": "提供",
+    "lshk": "tai4 gung1",
+    "eng": "provide, supply",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "大學",
+    "lshk": "daai6 hok6",
+    "eng": "university, college",
+    "labels": ["education", "building"]
+  },
+  {
+    "char": "只是",
+    "lshk": "zi2 si6",
+    "eng": "just, merely (formal)",
+    "labels": ["adverb", "formal"]
+  },
+  {
+    "char": "比較",
+    "lshk": "bei2 gaau3",
+    "eng": "compare, relatively",
+    "labels": ["verb", "adverb"]
+  },
+  {
+    "char": "去年",
+    "lshk": "heoi3 nin4",
+    "eng": "last year",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "第二",
+    "lshk": "dai6 ji6",
+    "eng": "second, number two",
+    "labels": ["number", "ordinal"]
+  },
+  {
+    "char": "單位",
+    "lshk": "daan1 wai2",
+    "eng": "unit, apartment",
+    "labels": ["noun", "housing"]
+  },
+  {
+    "char": "新聞",
+    "lshk": "san1 man2",
+    "eng": "news",
+    "labels": ["media", "noun"]
+  },
+  {
+    "char": "能力",
+    "lshk": "nang4 lik6",
+    "eng": "ability, capability",
+    "labels": ["noun", "skill"]
+  },
+  {
+    "char": "只要",
+    "lshk": "zi2 jiu3",
+    "eng": "as long as, provided that",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "討論",
+    "lshk": "tou2 leon6",
+    "eng": "discuss, discussion",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "記得",
+    "lshk": "gei3 dak1",
+    "eng": "remember",
+    "labels": ["verb", "cognition"]
+  },
+  {
+    "char": "未來",
+    "lshk": "mei6 loi4",
+    "eng": "future",
+    "labels": ["time", "noun"]
+  },
+  {
+    "char": "民主",
+    "lshk": "man4 zyu2",
+    "eng": "democracy, democratic",
+    "labels": ["politics", "noun"]
+  },
+  {
+    "char": "中心",
+    "lshk": "zung1 sam1",
+    "eng": "center, core",
+    "labels": ["place", "noun"]
+  },
+  {
+    "char": "方法",
+    "lshk": "fong1 faat3",
+    "eng": "method, way",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "處理",
+    "lshk": "cyu2 lei5",
+    "eng": "handle, deal with",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "安全",
+    "lshk": "on1 cyun4",
+    "eng": "safe, secure, safety",
+    "labels": ["adjective", "noun"]
+  },
+  {
+    "char": "由於",
+    "lshk": "jau4 jyu1",
+    "eng": "due to, because of",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "嚴重",
+    "lshk": "jim4 zung6",
+    "eng": "serious, severe",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "考慮",
+    "lshk": "haau2 leoi6",
+    "eng": "consider, consideration",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "目標",
+    "lshk": "muk6 biu1",
+    "eng": "goal, target",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "外國",
+    "lshk": "ngoi6 gwok3",
+    "eng": "foreign country",
+    "labels": ["place", "common"]
+  },
+  {
+    "char": "呢啲",
+    "lshk": "ni1 di1",
+    "eng": "these (colloquial)",
+    "labels": ["pronoun", "colloquial"]
+  },
+  {
+    "char": "最多",
+    "lshk": "zeoi3 do1",
+    "eng": "at most, maximum",
+    "labels": ["quantity", "adverb"]
+  },
+  {
+    "char": "解釋",
+    "lshk": "gaai2 sik1",
+    "eng": "explain, explanation",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "研究",
+    "lshk": "jin4 gau3",
+    "eng": "research, study",
+    "labels": ["noun", "verb"]
+  },
+  {
+    "char": "擔心",
+    "lshk": "daam1 sam1",
+    "eng": "worry, concerned",
+    "labels": ["emotion", "verb"]
+  },
+  {
+    "char": "自由",
+    "lshk": "zi6 jau4",
+    "eng": "freedom, liberty",
+    "labels": ["noun", "politics"]
+  },
+  {
+    "char": "現在",
+    "lshk": "jin6 zoi6",
+    "eng": "now, currently",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "球隊",
+    "lshk": "kau4 deoi2",
+    "eng": "team (ball games)",
+    "labels": ["sport", "group"]
+  },
+  {
+    "char": "星期",
+    "lshk": "sing1 kei4",
+    "eng": "week",
+    "labels": ["time", "unit"]
+  },
+  {
+    "char": "一般",
+    "lshk": "jat1 bun1",
+    "eng": "general, common, generally",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "被吿",
+    "lshk": "bei6 gou3",
+    "eng": "defendant, accused",
+    "labels": ["law", "human"]
+  },
+  {
+    "char": "唔同",
+    "lshk": "m4 tung4",
+    "eng": "different (colloquial)",
+    "labels": ["adjective", "colloquial"]
+  },
+  {
+    "char": "唔想",
+    "lshk": "m4 soeng2",
+    "eng": "don't want to, don't feel like (colloquial)",
+    "labels": ["negative", "verb", "colloquial"]
+  },
+  {
+    "char": "明顯",
+    "lshk": "ming4 hin2",
+    "eng": "obvious, clearly",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "有時",
+    "lshk": "jau5 si4",
+    "eng": "sometimes",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "一日",
+    "lshk": "jat1 jat6",
+    "eng": "one day",
+    "labels": ["time", "quantity"]
+  },
+  {
+    "char": "最好",
+    "lshk": "zeoi3 hou2",
+    "eng": "best, better (to)",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "仲要",
+    "lshk": "zung6 jiu3",
+    "eng": "still need to, moreover (colloquial)",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "服務",
+    "lshk": "fuk6 mou6",
+    "eng": "service",
+    "labels": ["noun", "business"]
+  },
+  {
+    "char": "不少",
+    "lshk": "bat1 siu2",
+    "eng": "quite a lot, not few",
+    "labels": ["quantity", "common"]
+  },
+  {
+    "char": "收到",
+    "lshk": "sau1 dou2",
+    "eng": "receive",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "合作",
+    "lshk": "hap6 zok3",
+    "eng": "cooperate, cooperation",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "主席",
+    "lshk": "zyu2 zik6",
+    "eng": "chairman, president",
+    "labels": ["title", "politics"]
+  },
+  {
+    "char": "個個",
+    "lshk": "go3 go3",
+    "eng": "every one, each (colloquial)",
+    "labels": ["pronoun", "colloquial"]
+  },
+  {
+    "char": "非常",
+    "lshk": "fei1 soeng4",
+    "eng": "very, extremely",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "壓力",
+    "lshk": "aat3 lik6",
+    "eng": "pressure, stress",
+    "labels": ["noun", "emotion"]
+  },
+  {
+    "char": "回應",
+    "lshk": "wui4 jing3",
+    "eng": "respond, response",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "有啲",
+    "lshk": "jau5 di1",
+    "eng": "some, a bit (colloquial)",
+    "labels": ["quantity", "colloquial"]
+  },
+  {
+    "char": "好好",
+    "lshk": "hou2 hou2",
+    "eng": "very good, properly (colloquial)",
+    "labels": ["adjective", "adverb", "colloquial"]
+  },
+  {
+    "char": "比賽",
+    "lshk": "bei2 coi3",
+    "eng": "competition, match",
+    "labels": ["sport", "event"]
+  },
+  {
+    "char": "手機",
+    "lshk": "sau2 gei1",
+    "eng": "mobile phone",
+    "labels": ["technology", "device"]
+  },
+  {
+    "char": "現場",
+    "lshk": "jin6 coeng4",
+    "eng": "scene, live (on site)",
+    "labels": ["place", "event"]
+  },
+  {
+    "char": "以及",
+    "lshk": "ji5 kap6",
+    "eng": "as well as, and",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "酒店",
+    "lshk": "zau2 dim3",
+    "eng": "hotel",
+    "labels": ["building", "travel"]
+  },
+  {
+    "char": "作為",
+    "lshk": "zok3 wai4",
+    "eng": "as, in the capacity of",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "警察",
+    "lshk": "ging2 caat3",
+    "eng": "police officer, police",
+    "labels": ["law enforcement", "human"]
+  },
+  {
+    "char": "廣吿",
+    "lshk": "gwong2 gou3",
+    "eng": "advertisement",
+    "labels": ["media", "business"]
+  },
+  {
+    "char": "離開",
+    "lshk": "lei4 hoi1",
+    "eng": "leave, depart",
+    "labels": ["verb", "movement"]
+  },
+  {
+    "char": "留意",
+    "lshk": "lau4 ji3",
+    "eng": "pay attention, notice",
+    "labels": ["verb", "cognition"]
+  },
+  {
+    "char": "每日",
+    "lshk": "mui5 jat6",
+    "eng": "every day, daily",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "增加",
+    "lshk": "zang1 gaa1",
+    "eng": "increase, add",
+    "labels": ["verb", "quantity"]
+  },
+  {
+    "char": "屋企",
+    "lshk": "uk1 kei2",
+    "eng": "home, house (colloquial)",
+    "labels": ["place", "housing", "colloquial"]
+  },
+  {
+    "char": "不如",
+    "lshk": "bat1 jyu4",
+    "eng": "it would be better to, why not",
+    "labels": ["suggestion", "comparison"]
+  },
+  {
+    "char": "原因",
+    "lshk": "jyun4 jan1",
+    "eng": "reason, cause",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "節目",
+    "lshk": "zit3 muk6",
+    "eng": "program, show",
+    "labels": ["entertainment", "media"]
+  },
+  {
+    "char": "目前",
+    "lshk": "muk6 cin4",
+    "eng": "at present, currently",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "立法會",
+    "lshk": "laap6 faat3 wui2",
+    "eng": "Legislative Council (LegCo)",
+    "labels": ["politics", "organization"]
+  },
+  {
+    "char": "面對",
+    "lshk": "min6 deoi3",
+    "eng": "face, confront",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "現時",
+    "lshk": "jin6 si4",
+    "eng": "at present, currently",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "基本",
+    "lshk": "gei1 bun2",
+    "eng": "basic, fundamental",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "對於",
+    "lshk": "deoi3 jyu1",
+    "eng": "regarding, with respect to",
+    "labels": ["preposition", "common"]
+  },
+  {
+    "char": "使用",
+    "lshk": "si2 jung6",
+    "eng": "use, employ",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "指出",
+    "lshk": "zi2 ceot1",
+    "eng": "point out, indicate",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "公開",
+    "lshk": "gung1 hoi1",
+    "eng": "open, public",
+    "labels": ["adjective", "verb"]
+  },
+  {
+    "char": "女人",
+    "lshk": "neoi5 jan2",
+    "eng": "woman",
+    "labels": ["human", "gender"]
+  },
+  {
+    "char": "時候",
+    "lshk": "si4 hau6",
+    "eng": "time, moment",
+    "labels": ["time", "noun"]
+  },
+  {
+    "char": "吸引",
+    "lshk": "kap1 jan5",
+    "eng": "attract, draw",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "是否",
+    "lshk": "si6 fau2",
+    "eng": "whether or not, is it?",
+    "labels": ["question", "formal"]
+  },
+  {
+    "char": "無人",
+    "lshk": "mou4 jan4",
+    "eng": "no one, deserted",
+    "labels": ["quantity", "adjective"]
+  },
+  {
+    "char": "員工",
+    "lshk": "jyun4 gung1",
+    "eng": "employee, staff",
+    "labels": ["human", "business"]
+  },
+  {
+    "char": "不斷",
+    "lshk": "bat1 dyun6",
+    "eng": "continuously, constantly",
+    "labels": ["adverb", "time"]
+  },
+  {
+    "char": "獨立",
+    "lshk": "duk6 laap6",
+    "eng": "independent, independence",
+    "labels": ["adjective", "politics"]
+  },
+  {
+    "char": "男人",
+    "lshk": "naam4 jan2",
+    "eng": "man",
+    "labels": ["human", "gender"]
+  },
+  {
+    "char": "網上",
+    "lshk": "mong5 soeng6",
+    "eng": "online, internet",
+    "labels": ["technology", "digital"]
+  },
+  {
+    "char": "不同",
+    "lshk": "bat1 tung4",
+    "eng": "different, not same",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "設計",
+    "lshk": "cit3 gai3",
+    "eng": "design",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "邊個",
+    "lshk": "bin1 go3",
+    "eng": "who, which one (colloquial)",
+    "labels": ["question", "pronoun", "colloquial"]
+  },
+  {
+    "char": "當中",
+    "lshk": "dong1 zung1",
+    "eng": "among, in the middle",
+    "labels": ["noun", "location"]
+  },
+  {
+    "char": "英文",
+    "lshk": "jing1 man2",
+    "eng": "English (language)",
+    "labels": ["language", "education"]
+  },
+  {
+    "char": "全球",
+    "lshk": "cyun4 kau4",
+    "eng": "global, worldwide",
+    "labels": ["adjective", "geography"]
+  },
+  {
+    "char": "唔使",
+    "lshk": "m4 sai2",
+    "eng": "no need, don't have to (colloquial)",
+    "labels": ["negative", "modal", "colloquial"]
+  },
+  {
+    "char": "自然",
+    "lshk": "zi6 jin4",
+    "eng": "nature, natural, naturally",
+    "labels": ["noun", "adjective", "nature"]
+  },
+  {
+    "char": "試過",
+    "lshk": "si3 gwo3",
+    "eng": "tried, have tried (colloquial)",
+    "labels": ["verb", "experience", "colloquial"]
+  },
+  {
+    "char": "暫時",
+    "lshk": "zaam6 si4",
+    "eng": "temporary, for the time being",
+    "labels": ["time", "adjective"]
+  },
+  {
+    "char": "甚麼",
+    "lshk": "sam6 mo1",
+    "eng": "what, anything",
+    "labels": ["question", "pronoun"]
+  },
+  {
+    "char": "電視",
+    "lshk": "din6 si6",
+    "eng": "television, TV",
+    "labels": ["technology", "entertainment"]
+  },
+  {
+    "char": "小時",
+    "lshk": "siu2 si4",
+    "eng": "hour",
+    "labels": ["time", "unit"]
+  },
+  {
+    "char": "肯定",
+    "lshk": "hang2 ding6",
+    "eng": "certain, affirm, definitely",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "唔夠",
+    "lshk": "m4 gau3",
+    "eng": "not enough, insufficient (colloquial)",
+    "labels": ["negative", "quantity", "colloquial"]
+  },
+  {
+    "char": "同一",
+    "lshk": "tung4 jat1",
+    "eng": "same, identical",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "搞到",
+    "lshk": "gaau2 dou2",
+    "eng": "cause, result in (negative outcome, colloquial)",
+    "labels": ["verb", "colloquial"]
+  },
+  {
+    "char": "所謂",
+    "lshk": "so2 wai6",
+    "eng": "so-called",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "懷疑",
+    "lshk": "waai4 ji4",
+    "eng": "doubt, suspect",
+    "labels": ["verb", "emotion"]
+  },
+  {
+    "char": "顯示",
+    "lshk": "hin2 si6",
+    "eng": "display, show",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "少少",
+    "lshk": "siu2 siu2",
+    "eng": "a little bit, a small amount (colloquial)",
+    "labels": ["quantity", "colloquial"]
+  },
+  {
+    "char": "左右",
+    "lshk": "zo2 jau2",
+    "eng": "left and right, approximately",
+    "labels": ["direction", "quantity"]
+  },
+  {
+    "char": "左右",
+    "lshk": "zo2 jau6",
+    "eng": "to control, dominate (variant pronunciation)",
+    "labels": ["verb", "control"]
+  },
+  {
+    "char": "反對",
+    "lshk": "faan2 deoi3",
+    "eng": "oppose, object",
+    "labels": ["verb", "politics"]
+  },
+  {
+    "char": "最終",
+    "lshk": "zeoi3 zung1",
+    "eng": "finally, ultimately",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "以上",
+    "lshk": "ji5 soeng6",
+    "eng": "above, more than",
+    "labels": ["position", "quantity"]
+  },
+  {
+    "char": "未必",
+    "lshk": "mei6 bit1",
+    "eng": "not necessarily, may not",
+    "labels": ["adverb", "modal"]
+  },
+  {
+    "char": "證明",
+    "lshk": "zing3 ming4",
+    "eng": "prove, proof",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "身體",
+    "lshk": "san1 tai2",
+    "eng": "body, health",
+    "labels": ["noun", "human"]
+  },
+  {
+    "char": "更加",
+    "lshk": "gang3 gaa1",
+    "eng": "more, even more",
+    "labels": ["adverb", "comparison"]
+  },
+  {
+    "char": "安排",
+    "lshk": "on1 paai4",
+    "eng": "arrange, arrangement",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "冇人",
+    "lshk": "mou5 jan4",
+    "eng": "no one, nobody (colloquial)",
+    "labels": ["quantity", "colloquial"]
+  },
+  {
+    "char": "簡單",
+    "lshk": "gaan2 daan1",
+    "eng": "simple, easy",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "期間",
+    "lshk": "kei4 gaan1",
+    "eng": "period, duration",
+    "labels": ["time", "noun"]
+  },
+  {
+    "char": "還是",
+    "lshk": "waan4 si6",
+    "eng": "still, or (in a question)",
+    "labels": ["adverb", "conjunction"]
+  },
+  {
+    "char": "如何",
+    "lshk": "jyu4 ho4",
+    "eng": "how, what kind of",
+    "labels": ["question", "adverb"]
+  },
+  {
+    "char": "歐洲",
+    "lshk": "au1 zau1",
+    "eng": "Europe",
+    "labels": ["place", "geography"]
+  },
+  {
+    "char": "英超",
+    "lshk": "jing1 ciu1",
+    "eng": "English Premier League",
+    "labels": ["sport", "organization"]
+  },
+  {
+    "char": "反應",
+    "lshk": "faan2 jing3",
+    "eng": "react, response",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "意見",
+    "lshk": "ji3 gin6",
+    "eng": "opinion, suggestion",
+    "labels": ["noun", "communication"]
+  },
+  {
+    "char": "北京",
+    "lshk": "bak1 ging1",
+    "eng": "Beijing",
+    "labels": ["place", "city"]
+  },
+  {
+    "char": "選舉",
+    "lshk": "syun2 geoi2",
+    "eng": "election, elect",
+    "labels": ["politics", "verb"]
+  },
+  {
+    "char": "根據",
+    "lshk": "gan1 geoi3",
+    "eng": "according to, based on",
+    "labels": ["preposition", "common"]
+  },
+  {
+    "char": "參與",
+    "lshk": "caam1 jyu5",
+    "eng": "participate, join",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "歷史",
+    "lshk": "lik6 si2",
+    "eng": "history",
+    "labels": ["noun", "time"]
+  },
+  {
+    "char": "十分",
+    "lshk": "sap6 fan1",
+    "eng": "very, extremely (formal)",
+    "labels": ["adverb", "formal"]
+  },
+  {
+    "char": "幾多",
+    "lshk": "gei2 do1",
+    "eng": "how many/much? (colloquial)",
+    "labels": ["question", "quantity", "colloquial"]
+  },
+  {
+    "char": "基金",
+    "lshk": "gei1 gam1",
+    "eng": "fund",
+    "labels": ["finance", "noun"]
+  },
+  {
+    "char": "生意",
+    "lshk": "saang1 ji3",
+    "eng": "business, trade",
+    "labels": ["business", "noun"]
+  },
+  {
+    "char": "了解",
+    "lshk": "liu5 gaai2",
+    "eng": "understand, comprehend",
+    "labels": ["verb", "cognition"]
+  },
+  {
+    "char": "即刻",
+    "lshk": "zik1 hak1",
+    "eng": "immediately, at once (colloquial)",
+    "labels": ["adverb", "time", "colloquial"]
+  },
+  {
+    "char": "即使",
+    "lshk": "zik1 si2",
+    "eng": "even if, even though",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "因此",
+    "lshk": "jan1 ci2",
+    "eng": "therefore, so",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "美元",
+    "lshk": "mei5 jyun4",
+    "eng": "US dollar",
+    "labels": ["currency", "finance"]
+  },
+  {
+    "char": "認真",
+    "lshk": "jing6 zan1",
+    "eng": "serious, conscientious",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "報吿",
+    "lshk": "bou3 gou3",
+    "eng": "report",
+    "labels": ["noun", "verb"]
+  },
+  {
+    "char": "行為",
+    "lshk": "hang4 wai4",
+    "eng": "behavior, action",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "做到",
+    "lshk": "zou6 dou2",
+    "eng": "achieve, manage to do (colloquial)",
+    "labels": ["verb", "colloquial"]
+  },
+  {
+    "char": "加入",
+    "lshk": "gaa1 jap6",
+    "eng": "join, add",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "平均",
+    "lshk": "ping4 gwan1",
+    "eng": "average, on average",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "電腦",
+    "lshk": "din6 nou5",
+    "eng": "computer",
+    "labels": ["technology", "device"]
+  },
+  {
+    "char": "健康",
+    "lshk": "gin6 hong1",
+    "eng": "health, healthy",
+    "labels": ["noun", "adjective"]
+  },
+  {
+    "char": "變成",
+    "lshk": "bin3 sing4",
+    "eng": "become, turn into",
+    "labels": ["verb", "change"]
+  },
+  {
+    "char": "變成",
+    "lshk": "bin3 seng4",
+    "eng": "become, turn into (variant pronunciation)",
+    "labels": ["verb", "change"]
+  },
+  {
+    "char": "負責",
+    "lshk": "fu6 zaak3",
+    "eng": "be responsible for, responsible",
+    "labels": ["verb", "adjective"]
+  },
+  {
+    "char": "最高",
+    "lshk": "zeoi3 gou1",
+    "eng": "highest, supreme",
+    "labels": ["adjective", "superlative"]
+  },
+  {
+    "char": "遊戲",
+    "lshk": "jau4 hei3",
+    "eng": "game",
+    "labels": ["entertainment", "noun"]
+  },
+  {
+    "char": "宣傳",
+    "lshk": "syun1 cyun4",
+    "eng": "promote, propaganda",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "即係",
+    "lshk": "zik1 hai6",
+    "eng": "that is, in other words (colloquial)",
+    "labels": ["conjunction", "colloquial"]
+  },
+  {
+    "char": "家人",
+    "lshk": "gaa1 jan4",
+    "eng": "family members",
+    "labels": ["human", "family"]
+  },
+  {
+    "char": "正式",
+    "lshk": "zing3 sik1",
+    "eng": "formal, official",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "故事",
+    "lshk": "gu3 si6",
+    "eng": "story, tale",
+    "labels": ["noun", "art"]
+  },
+  {
+    "char": "文化",
+    "lshk": "man4 faa3",
+    "eng": "culture",
+    "labels": ["noun", "society"]
+  },
+  {
+    "char": "集團",
+    "lshk": "zaap6 tyun4",
+    "eng": "group, corporation",
+    "labels": ["business", "organization"]
+  },
+  {
+    "char": "政策",
+    "lshk": "zing3 caak3",
+    "eng": "policy",
+    "labels": ["politics", "noun"]
+  },
+  {
+    "char": "投訴",
+    "lshk": "tau4 sou3",
+    "eng": "complain, complaint",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "訪問",
+    "lshk": "fong2 man6",
+    "eng": "visit, interview",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "傳媒",
+    "lshk": "cyun4 mui4",
+    "eng": "media",
+    "labels": ["media", "noun"]
+  },
+  {
+    "char": "司機",
+    "lshk": "si1 gei1",
+    "eng": "driver",
+    "labels": ["human", "occupation"]
+  },
+  {
+    "char": "改變",
+    "lshk": "goi2 bin3",
+    "eng": "change",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "法國",
+    "lshk": "faat3 gwok3",
+    "eng": "France",
+    "labels": ["place", "country"]
+  },
+  {
+    "char": "巴士",
+    "lshk": "baa1 si2",
+    "eng": "bus",
+    "labels": ["transport", "vehicle"]
+  },
+  {
+    "char": "聯賽",
+    "lshk": "lyun4 coi3",
+    "eng": "league (sports)",
+    "labels": ["sport", "competition"]
+  },
+  {
+    "char": "經過",
+    "lshk": "ging1 gwo3",
+    "eng": "pass through, process",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "報道",
+    "lshk": "bou3 dou6",
+    "eng": "report (news)",
+    "labels": ["media", "verb"]
+  },
+  {
+    "char": "解決",
+    "lshk": "gaai2 kyut3",
+    "eng": "solve, resolve",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "早前",
+    "lshk": "zou2 cin4",
+    "eng": "earlier, some time ago",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "結婚",
+    "lshk": "git3 fan1",
+    "eng": "marry, get married",
+    "labels": ["family", "event"]
+  },
+  {
+    "char": "組織",
+    "lshk": "zou2 zik1",
+    "eng": "organize, organization",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "出嚟",
+    "lshk": "ceot1 lai4",
+    "eng": "come out (colloquial)",
+    "labels": ["verb", "direction", "colloquial"]
+  },
+  {
+    "char": "附近",
+    "lshk": "fu6 gan6",
+    "eng": "nearby, vicinity",
+    "labels": ["location", "common"]
+  },
+  {
+    "char": "這些",
+    "lshk": "ze2 se1",
+    "eng": "these",
+    "labels": ["pronoun", "common"]
+  },
+  {
+    "char": "完成",
+    "lshk": "jyun4 sing4",
+    "eng": "complete, finish",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "提出",
+    "lshk": "tai4 ceot1",
+    "eng": "propose, put forward",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "冠軍",
+    "lshk": "gun3 gwan1",
+    "eng": "champion",
+    "labels": ["sport", "title"]
+  },
+  {
+    "char": "價值",
+    "lshk": "gaa3 zik6",
+    "eng": "value, worth",
+    "labels": ["noun", "finance"]
+  },
+  {
+    "char": "成員",
+    "lshk": "sing4 jyun4",
+    "eng": "member",
+    "labels": ["human", "group"]
+  },
+  {
+    "char": "唔識",
+    "lshk": "m4 sik1",
+    "eng": "don't know, don't recognize (colloquial)",
+    "labels": ["negative", "verb", "colloquial"]
+  },
+  {
+    "char": "平時",
+    "lshk": "ping4 si4",
+    "eng": "normally, usually",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "至少",
+    "lshk": "zi3 siu2",
+    "eng": "at least",
+    "labels": ["quantity", "adverb"]
+  },
+  {
+    "char": "還有",
+    "lshk": "waan4 jau5",
+    "eng": "also have, in addition (formal)",
+    "labels": ["adverb", "formal"]
+  },
+  {
+    "char": "技術",
+    "lshk": "gei6 seot6",
+    "eng": "skill, technology",
+    "labels": ["noun", "skill"]
+  },
+  {
+    "char": "竟然",
+    "lshk": "ging2 jin4",
+    "eng": "unexpectedly, surprisingly",
+    "labels": ["adverb", "emotion"]
+  },
+  {
+    "char": "角色",
+    "lshk": "gok3 sik1",
+    "eng": "role, character",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "清楚",
+    "lshk": "cing1 co2",
+    "eng": "clear, clearly understand",
+    "labels": ["adjective", "verb"]
+  },
+  {
+    "char": "精神",
+    "lshk": "zing1 san1",
+    "eng": "spirit, energy, mind",
+    "labels": ["noun", "abstract"]
+  },
+  {
+    "char": "超過",
+    "lshk": "ciu1 gwo3",
+    "eng": "exceed, surpass",
+    "labels": ["verb", "quantity"]
+  },
+  {
+    "char": "收入",
+    "lshk": "sau1 jap6",
+    "eng": "income, revenue",
+    "labels": ["finance", "noun"]
+  },
+  {
+    "char": "努力",
+    "lshk": "nou5 lik6",
+    "eng": "endeavor, effort",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "警員",
+    "lshk": "ging2 jyun4",
+    "eng": "police officer",
+    "labels": ["law enforcement", "human"]
+  },
+  {
+    "char": "示威",
+    "lshk": "si6 wai1",
+    "eng": "demonstrate, demonstration",
+    "labels": ["politics", "verb"]
+  },
+  {
+    "char": "聽到",
+    "lshk": "teng1 dou2",
+    "eng": "hear",
+    "labels": ["verb", "sense"]
+  },
+  {
+    "char": "同樣",
+    "lshk": "tung4 joeng6",
+    "eng": "same, similarly",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "又係",
+    "lshk": "jau6 hai6",
+    "eng": "again is, also is (colloquial)",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "今晚",
+    "lshk": "gam1 maan5",
+    "eng": "tonight",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "透過",
+    "lshk": "tau3 gwo3",
+    "eng": "through, via",
+    "labels": ["preposition", "common"]
+  },
+  {
+    "char": "內容",
+    "lshk": "noi6 jung4",
+    "eng": "content",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "韓國",
+    "lshk": "hon4 gwok3",
+    "eng": "Korea",
+    "labels": ["place", "country"]
+  },
+  {
+    "char": "高層",
+    "lshk": "gou1 cang4",
+    "eng": "high-level, senior management",
+    "labels": ["noun", "business"]
+  },
+  {
+    "char": "遊行",
+    "lshk": "jau4 hang4",
+    "eng": "march, parade",
+    "labels": ["politics", "event"]
+  },
+  {
+    "char": "一場",
+    "lshk": "jat1 coeng4",
+    "eng": "one (event, game)",
+    "labels": ["number", "measure word"]
+  },
+  {
+    "char": "批評",
+    "lshk": "pai1 ping4",
+    "eng": "criticize, criticism",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "參加",
+    "lshk": "caam1 gaa1",
+    "eng": "participate, join",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "德國",
+    "lshk": "dak1 gwok3",
+    "eng": "Germany",
+    "labels": ["place", "country"]
+  },
+  {
+    "char": "環境",
+    "lshk": "waan4 ging2",
+    "eng": "environment, surroundings",
+    "labels": ["noun", "nature"]
+  },
+  {
+    "char": "放棄",
+    "lshk": "fong3 hei3",
+    "eng": "give up, abandon",
+    "labels": ["verb", "emotion"]
+  },
+  {
+    "char": "教練",
+    "lshk": "gaau3 lin6",
+    "eng": "coach, trainer",
+    "labels": ["human", "occupation"]
+  },
+  {
+    "char": "控制",
+    "lshk": "hung3 zai3",
+    "eng": "control",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "風險",
+    "lshk": "fung1 him2",
+    "eng": "risk",
+    "labels": ["noun", "finance"]
+  },
+  {
+    "char": "始終",
+    "lshk": "ci2 zung1",
+    "eng": "after all, eventually, from beginning to end",
+    "labels": ["adverb", "time"]
+  },
+  {
+    "char": "除了",
+    "lshk": "ceoi4 liu5",
+    "eng": "besides, apart from (formal)",
+    "labels": ["preposition", "formal"]
+  },
+  {
+    "char": "澳門",
+    "lshk": "ou3 mun2",
+    "eng": "Macau",
+    "labels": ["place", "city"]
+  },
+  {
+    "char": "對手",
+    "lshk": "deoi3 sau2",
+    "eng": "opponent, rival",
+    "labels": ["human", "competition"]
+  },
+  {
+    "char": "中央",
+    "lshk": "zung1 joeng1",
+    "eng": "central, center",
+    "labels": ["position", "politics"]
+  },
+  {
+    "char": "身份",
+    "lshk": "san1 fan2",
+    "eng": "identity, status",
+    "labels": ["noun", "social"]
+  },
+  {
+    "char": "當地",
+    "lshk": "dong1 dei6",
+    "eng": "local, locally",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "睇到",
+    "lshk": "tai2 dou2",
+    "eng": "see, watch (colloquial)",
+    "labels": ["verb", "sense", "colloquial"]
+  },
+  {
+    "char": "隨時",
+    "lshk": "ceoi4 si4",
+    "eng": "at any time, anytime",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "系統",
+    "lshk": "hai6 tung2",
+    "eng": "system",
+    "labels": ["noun", "technology"]
+  },
+  {
+    "char": "中學",
+    "lshk": "zung1 hok6",
+    "eng": "secondary school, middle school",
+    "labels": ["education", "building"]
+  },
+  {
+    "char": "容易",
+    "lshk": "jung4 ji6",
+    "eng": "easy",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "飛機",
+    "lshk": "fei1 gei1",
+    "eng": "airplane",
+    "labels": ["transport", "vehicle"]
+  },
+  {
+    "char": "可惜",
+    "lshk": "ho2 sik1",
+    "eng": "what a pity, unfortunately",
+    "labels": ["adjective", "emotion"]
+  },
+  {
+    "char": "機場",
+    "lshk": "gei1 coeng4",
+    "eng": "airport",
+    "labels": ["place", "transport"]
+  },
+  {
+    "char": "日日",
+    "lshk": "jat6 jat6",
+    "eng": "daily, every day (colloquial)",
+    "labels": ["time", "adverb", "colloquial"]
+  },
+  {
+    "char": "舉行",
+    "lshk": "geoi2 hang4",
+    "eng": "hold (an event), conduct",
+    "labels": ["verb", "event"]
+  },
+  {
+    "char": "人員",
+    "lshk": "jan4 jyun4",
+    "eng": "staff, personnel",
+    "labels": ["human", "group"]
+  },
+  {
+    "char": "就好",
+    "lshk": "zau6 hou2",
+    "eng": "then good, would be good (colloquial)",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "只會",
+    "lshk": "zi2 wui5",
+    "eng": "only will",
+    "labels": ["adverb", "modal"]
+  },
+  {
+    "char": "港元",
+    "lshk": "gong2 jyun4",
+    "eng": "Hong Kong dollar",
+    "labels": ["currency", "finance"]
+  },
+  {
+    "char": "位置",
+    "lshk": "wai6 zi3",
+    "eng": "position, location",
+    "labels": ["noun", "place"]
+  },
+  {
+    "char": "介紹",
+    "lshk": "gaai3 siu6",
+    "eng": "introduce, introduction",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "人生",
+    "lshk": "jan4 sang1",
+    "eng": "life",
+    "labels": ["noun", "abstract"]
+  },
+  {
+    "char": "律師",
+    "lshk": "leot6 si1",
+    "eng": "lawyer",
+    "labels": ["human", "occupation", "law"]
+  },
+  {
+    "char": "男子",
+    "lshk": "naam4 zi2",
+    "eng": "man, male (formal)",
+    "labels": ["human", "gender", "formal"]
+  },
+  {
+    "char": "得到",
+    "lshk": "dak1 dou2",
+    "eng": "get, obtain",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "澳洲",
+    "lshk": "ou3 zau1",
+    "eng": "Australia",
+    "labels": ["place", "country"]
+  },
+  {
+    "char": "父母",
+    "lshk": "fu6 mou5",
+    "eng": "parents",
+    "labels": ["human", "family"]
+  },
+  {
+    "char": "一下",
+    "lshk": "jat1 haa5",
+    "eng": "a bit, once (brief action)",
+    "labels": ["adverb", "measure word"]
+  },
+  {
+    "char": "受到",
+    "lshk": "sau6 dou3",
+    "eng": "receive, suffer from",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "長期",
+    "lshk": "coeng4 kei4",
+    "eng": "long-term",
+    "labels": ["time", "adjective"]
+  },
+  {
+    "char": "足球",
+    "lshk": "zuk1 kau4",
+    "eng": "football, soccer",
+    "labels": ["sport", "game"]
+  },
+  {
+    "char": "中場",
+    "lshk": "zung1 coeng4",
+    "eng": "midfielder, halftime",
+    "labels": ["sport", "time"]
+  },
+  {
+    "char": "仍然",
+    "lshk": "jing4 jin4",
+    "eng": "still, yet",
+    "labels": ["adverb", "time"]
+  },
+  {
+    "char": "慢慢",
+    "lshk": "maan6 maan2",
+    "eng": "slowly",
+    "labels": ["adverb", "manner"]
+  },
+  {
+    "char": "普通",
+    "lshk": "pou2 tung1",
+    "eng": "common, ordinary, standard",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "水平",
+    "lshk": "seoi2 ping4",
+    "eng": "level, standard",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "淨係",
+    "lshk": "zing6 hai6",
+    "eng": "only, merely (colloquial)",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "先生",
+    "lshk": "sin1 saang1",
+    "eng": "Mr., teacher, sir",
+    "labels": ["title", "human"]
+  },
+  {
+    "char": "推出",
+    "lshk": "teoi1 ceot1",
+    "eng": "launch, release",
+    "labels": ["verb", "business"]
+  },
+  {
+    "char": "主場",
+    "lshk": "zyu2 coeng4",
+    "eng": "home ground, home court",
+    "labels": ["sport", "place"]
+  },
+  {
+    "char": "特首",
+    "lshk": "dak6 sau2",
+    "eng": "Chief Executive (of HK)",
+    "labels": ["politics", "title"]
+  },
+  {
+    "char": "投票",
+    "lshk": "tau4 piu3",
+    "eng": "vote",
+    "labels": ["politics", "verb"]
+  },
+  {
+    "char": "出席",
+    "lshk": "ceot1 zik6",
+    "eng": "attend, be present",
+    "labels": ["verb", "event"]
+  },
+  {
+    "char": "產品",
+    "lshk": "caan2 ban2",
+    "eng": "product",
+    "labels": ["business", "noun"]
+  },
+  {
+    "char": "直播",
+    "lshk": "zik6 bo3",
+    "eng": "live broadcast",
+    "labels": ["media", "noun"]
+  },
+  {
+    "char": "年代",
+    "lshk": "nin4 doi6",
+    "eng": "decade, era",
+    "labels": ["time", "noun"]
+  },
+  {
+    "char": "值得",
+    "lshk": "zik6 dak1",
+    "eng": "worthwhile, deserve",
+    "labels": ["adjective", "verb"]
+  },
+  {
+    "char": "小朋友",
+    "lshk": "siu2 pang4 jau5",
+    "eng": "children, kids (colloquial)",
+    "labels": ["human", "family", "colloquial"]
+  },
+  {
+    "char": "小心",
+    "lshk": "siu2 sam1",
+    "eng": "be careful, careful",
+    "labels": ["adjective", "verb"]
+  },
+  {
+    "char": "經驗",
+    "lshk": "ging1 jim6",
+    "eng": "experience",
+    "labels": ["noun", "skill"]
+  },
+  {
+    "char": "的話",
+    "lshk": "dik1 waa6",
+    "eng": "if (particle)",
+    "labels": ["grammar", "conditional"]
+  },
+  {
+    "char": "點知",
+    "lshk": "dim2 zi1",
+    "eng": "who knew?, unexpectedly (colloquial)",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "成本",
+    "lshk": "sing4 bun2",
+    "eng": "cost",
+    "labels": ["finance", "noun"]
+  },
+  {
+    "char": "改善",
+    "lshk": "goi2 sin6",
+    "eng": "improve, improvement",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "有得",
+    "lshk": "jau5 dak1",
+    "eng": "can, have the opportunity to (colloquial)",
+    "labels": ["modal", "colloquial"]
+  },
+  {
+    "char": "球迷",
+    "lshk": "kau4 mai4",
+    "eng": "sports fan (ball games)",
+    "labels": ["human", "sport"]
+  },
+  {
+    "char": "表示",
+    "lshk": "biu2 si6",
+    "eng": "express, indicate",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "美國",
+    "lshk": "mei5 gwok3",
+    "eng": "United States",
+    "labels": ["place", "country"]
+  },
+  {
+    "char": "昨日",
+    "lshk": "zok3 jat6",
+    "eng": "yesterday (formal)",
+    "labels": ["time", "formal"]
+  },
+  {
+    "char": "入面",
+    "lshk": "jap6 min6",
+    "eng": "inside (colloquial)",
+    "labels": ["location", "colloquial"]
+  },
+  {
+    "char": "大量",
+    "lshk": "daai6 loeng6",
+    "eng": "large quantity, massive",
+    "labels": ["quantity", "adjective"]
+  },
+  {
+    "char": "觀眾",
+    "lshk": "gun1 zung3",
+    "eng": "audience, spectator",
+    "labels": ["human", "group"]
+  },
+  {
+    "char": "即時",
+    "lshk": "zik1 si4",
+    "eng": "immediate, real-time",
+    "labels": ["time", "adjective"]
+  },
+  {
+    "char": "亞洲",
+    "lshk": "aa3 zau1",
+    "eng": "Asia",
+    "labels": ["place", "geography"]
+  },
+  {
+    "char": "透露",
+    "lshk": "tau3 lou6",
+    "eng": "reveal, disclose",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "強調",
+    "lshk": "koeng4 diu6",
+    "eng": "emphasize, stress",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "空間",
+    "lshk": "hung1 gaan1",
+    "eng": "space",
+    "labels": ["noun", "place"]
+  },
+  {
+    "char": "紀錄",
+    "lshk": "gei2 luk6",
+    "eng": "record",
+    "labels": ["noun", "verb"]
+  },
+  {
+    "char": "一半",
+    "lshk": "jat1 bun3",
+    "eng": "half",
+    "labels": ["quantity", "fraction"]
+  },
+  {
+    "char": "成交",
+    "lshk": "sing4 gaau1",
+    "eng": "deal, transaction",
+    "labels": ["business", "noun"]
+  },
+  {
+    "char": "必須",
+    "lshk": "bit1 seoi1",
+    "eng": "must, essential",
+    "labels": ["modal", "adjective"]
+  },
+  {
+    "char": "保護",
+    "lshk": "bou2 wu6",
+    "eng": "protect, protection",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "同學",
+    "lshk": "tung4 hok6",
+    "eng": "classmate",
+    "labels": ["human", "education"]
+  },
+  {
+    "char": "方便",
+    "lshk": "fong1 bin6",
+    "eng": "convenient",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "相關",
+    "lshk": "soeng1 gwaan1",
+    "eng": "related, relevant",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "到時",
+    "lshk": "dou3 si4",
+    "eng": "when the time comes (colloquial)",
+    "labels": ["time", "colloquial"]
+  },
+  {
+    "char": "總共",
+    "lshk": "zung2 gung6",
+    "eng": "total, altogether",
+    "labels": ["quantity", "adverb"]
+  },
+  {
+    "char": "興趣",
+    "lshk": "hing3 ceoi3",
+    "eng": "interest",
+    "labels": ["noun", "emotion"]
+  },
+  {
+    "char": "唔少",
+    "lshk": "m4 siu2",
+    "eng": "quite a lot, not few (colloquial)",
+    "labels": ["quantity", "colloquial"]
+  },
+  {
+    "char": "免費",
+    "lshk": "min5 fai3",
+    "eng": "free (of charge)",
+    "labels": ["adjective", "finance"]
+  },
+  {
+    "char": "數據",
+    "lshk": "sou3 geoi3",
+    "eng": "data",
+    "labels": ["noun", "technology"]
+  },
+  {
+    "char": "本地",
+    "lshk": "bun2 dei6",
+    "eng": "local",
+    "labels": ["adjective", "place"]
+  },
+  {
+    "char": "好過",
+    "lshk": "hou2 gwo3",
+    "eng": "better than (colloquial)",
+    "labels": ["comparison", "colloquial"]
+  },
+  {
+    "char": "老闆",
+    "lshk": "lou5 baan2",
+    "eng": "boss (colloquial)",
+    "labels": ["human", "business", "colloquial"]
+  },
+  {
+    "char": "明白",
+    "lshk": "ming4 baak6",
+    "eng": "understand, clear",
+    "labels": ["verb", "adjective"]
+  },
+  {
+    "char": "大部份",
+    "lshk": "daai6 bou6 fan6",
+    "eng": "majority, most part",
+    "labels": ["quantity", "common"]
+  },
+  {
+    "char": "同事",
+    "lshk": "tung4 si6",
+    "eng": "colleague",
+    "labels": ["human", "occupation"]
+  },
+  {
+    "char": "日前",
+    "lshk": "jat6 cin4",
+    "eng": "a few days ago",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "總統",
+    "lshk": "zung2 tung2",
+    "eng": "president",
+    "labels": ["title", "politics"]
+  },
+  {
+    "char": "推介",
+    "lshk": "teoi1 gaai3",
+    "eng": "recommend, introduce",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "好多人",
+    "lshk": "hou2 do1 jan4",
+    "eng": "many people, a lot of people (colloquial)",
+    "labels": ["quantity", "colloquial"]
+  },
+  {
+    "char": "無論",
+    "lshk": "mou4 leon6",
+    "eng": "regardless of, no matter (how/what)",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "關注",
+    "lshk": "gwaan1 zyu3",
+    "eng": "concern, pay attention to",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "爭取",
+    "lshk": "zang1 ceoi2",
+    "eng": "strive for, contend for",
+    "labels": ["verb", "action"]
+  },
+  {
+    "char": "地區",
+    "lshk": "dei6 keoi1",
+    "eng": "district, area",
+    "labels": ["place", "common"]
+  },
+  {
+    "char": "近年",
+    "lshk": "gan6 nin4",
+    "eng": "in recent years",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "通常",
+    "lshk": "tung1 soeng4",
+    "eng": "normally, usually",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "噉樣",
+    "lshk": "gam2 joeng6",
+    "eng": "like this (colloquial)",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "受傷",
+    "lshk": "sau6 soeng1",
+    "eng": "get injured, injured",
+    "labels": ["verb", "health"]
+  },
+  {
+    "char": "承認",
+    "lshk": "sing4 jing6",
+    "eng": "admit, acknowledge",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "拒絕",
+    "lshk": "keoi5 zyut6",
+    "eng": "refuse, reject",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "之一",
+    "lshk": "zi1 jat1",
+    "eng": "one of",
+    "labels": ["grammar", "common"]
+  },
+  {
+    "char": "不要",
+    "lshk": "bat1 jiu3",
+    "eng": "don't, must not",
+    "labels": ["negative", "modal"]
+  },
+  {
+    "char": "分析",
+    "lshk": "fan1 sik1",
+    "eng": "analyze, analysis",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "真正",
+    "lshk": "zan1 zing3",
+    "eng": "real, true, genuinely",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "管理",
+    "lshk": "gun2 lei5",
+    "eng": "manage, management",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "業主",
+    "lshk": "jip6 zyu2",
+    "eng": "landlord, property owner",
+    "labels": ["human", "housing"]
+  },
+  {
+    "char": "感到",
+    "lshk": "gam2 dou3",
+    "eng": "feel",
+    "labels": ["verb", "emotion"]
+  },
+  {
+    "char": "留言",
+    "lshk": "lau4 jin4",
+    "eng": "leave a message, message",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "原本",
+    "lshk": "jyun4 bun2",
+    "eng": "original, originally",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "家庭",
+    "lshk": "gaa1 ting4",
+    "eng": "family, household",
+    "labels": ["noun", "family"]
+  },
+  {
+    "char": "主動",
+    "lshk": "zyu2 dung6",
+    "eng": "proactive, initiative",
+    "labels": ["adjective", "action"]
+  },
+  {
+    "char": "委員會",
+    "lshk": "wai2 jyun4 wui2",
+    "eng": "committee",
+    "labels": ["organization", "politics"]
+  },
+  {
+    "char": "為了",
+    "lshk": "wai6 liu5",
+    "eng": "for (the sake of), in order to",
+    "labels": ["preposition", "purpose"]
+  },
+  {
+    "char": "出來",
+    "lshk": "ceot1 loi4",
+    "eng": "come out (formal)",
+    "labels": ["verb", "direction", "formal"]
+  },
+  {
+    "char": "幾年",
+    "lshk": "gei2 nin4",
+    "eng": "several years",
+    "labels": ["time", "quantity"]
+  },
+  {
+    "char": "感情",
+    "lshk": "gam2 cing4",
+    "eng": "emotion, relationship",
+    "labels": ["noun", "emotion"]
+  },
+  {
+    "char": "辛苦",
+    "lshk": "san1 fu2",
+    "eng": "hard, toilsome, arduous",
+    "labels": ["adjective", "feeling"]
+  },
+  {
+    "char": "唯一",
+    "lshk": "wai4 jat1",
+    "eng": "only, sole",
+    "labels": ["adjective", "quantity"]
+  },
+  {
+    "char": "穩定",
+    "lshk": "wan2 ding6",
+    "eng": "stable, steady",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "口罩",
+    "lshk": "hau2 zaau3",
+    "eng": "mask",
+    "labels": ["noun", "clothing"]
+  },
+  {
+    "char": "教育",
+    "lshk": "gaau3 juk6",
+    "eng": "education",
+    "labels": ["noun", "education"]
+  },
+  {
+    "char": "持續",
+    "lshk": "ci4 zuk6",
+    "eng": "continue, sustained",
+    "labels": ["verb", "adjective"]
+  },
+  {
+    "char": "一些",
+    "lshk": "jat1 se1",
+    "eng": "some, a few",
+    "labels": ["quantity", "common"]
+  },
+  {
+    "char": "曼聯",
+    "lshk": "maan6 lyun4",
+    "eng": "Manchester United",
+    "labels": ["sport", "team"]
+  },
+  {
+    "char": "移民",
+    "lshk": "ji4 man4",
+    "eng": "immigrate, immigrant",
+    "labels": ["verb", "human"]
+  },
+  {
+    "char": "老婆",
+    "lshk": "lou5 po4",
+    "eng": "wife (colloquial)",
+    "labels": ["human", "family", "colloquial"]
+  },
+  {
+    "char": "意外",
+    "lshk": "ji3 ngoi6",
+    "eng": "accident, unexpected",
+    "labels": ["noun", "adjective"]
+  },
+  {
+    "char": "來自",
+    "lshk": "loi4 zi6",
+    "eng": "come from",
+    "labels": ["verb", "origin"]
+  },
+  {
+    "char": "工程",
+    "lshk": "gung1 cing4",
+    "eng": "engineering, project",
+    "labels": ["noun", "field"]
+  },
+  {
+    "char": "機構",
+    "lshk": "gei1 kau3",
+    "eng": "organization, institution",
+    "labels": ["noun", "group"]
+  },
+  {
+    "char": "質素",
+    "lshk": "zat1 sou3",
+    "eng": "quality",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "通過",
+    "lshk": "tung1 gwo3",
+    "eng": "pass (a test), adopt (a resolution)",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "近日",
+    "lshk": "gan6 jat6",
+    "eng": "in recent days",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "商場",
+    "lshk": "soeng1 coeng4",
+    "eng": "shopping mall",
+    "labels": ["building", "shopping"]
+  },
+  {
+    "char": "企業",
+    "lshk": "kei5 jip6",
+    "eng": "enterprise, company",
+    "labels": ["business", "organization"]
+  },
+  {
+    "char": "疫情",
+    "lshk": "jik6 cing4",
+    "eng": "epidemic, pandemic situation",
+    "labels": ["health", "event"]
+  },
+  {
+    "char": "估計",
+    "lshk": "gu2 gai3",
+    "eng": "estimate, guess",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "元朗",
+    "lshk": "jyun4 long5",
+    "eng": "Yuen Long (place in HK)",
+    "labels": ["place", "district"]
+  },
+  {
+    "char": "抗爭",
+    "lshk": "kong3 zang1",
+    "eng": "struggle, resistance",
+    "labels": ["verb", "politics"]
+  },
+  {
+    "char": "通知",
+    "lshk": "tung1 zi1",
+    "eng": "inform, notification",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "一個人",
+    "lshk": "jat1 go3 jan1",
+    "eng": "a person (variant)",
+    "labels": ["human", "quantity"]
+  },
+  {
+    "char": "一個人",
+    "lshk": "jat1 go3 jan4",
+    "eng": "a person, alone",
+    "labels": ["human", "quantity", "state"]
+  },
+  {
+    "char": "保持",
+    "lshk": "bou2 ci4",
+    "eng": "maintain, keep",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "公佈",
+    "lshk": "gung1 bou3",
+    "eng": "announce, publish",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "他人",
+    "lshk": "taa1 jan4",
+    "eng": "other people, others",
+    "labels": ["human", "pronoun"]
+  },
+  {
+    "char": "泛民",
+    "lshk": "faan6 man4",
+    "eng": "pan-democrats (Hong Kong politics)",
+    "labels": ["politics", "group"]
+  },
+  {
+    "char": "一邊",
+    "lshk": "jat1 bin1",
+    "eng": "one side, while (doing)",
+    "labels": ["position", "conjunction"]
+  },
+  {
+    "char": "取消",
+    "lshk": "ceoi2 siu1",
+    "eng": "cancel",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "擁有",
+    "lshk": "jung2 jau5",
+    "eng": "possess, own",
+    "labels": ["verb", "possession"]
+  },
+  {
+    "char": "職員",
+    "lshk": "zik1 jyun4",
+    "eng": "staff member, employee",
+    "labels": ["human", "occupation"]
+  },
+  {
+    "char": "被捕",
+    "lshk": "bei6 bou6",
+    "eng": "be arrested",
+    "labels": ["verb", "law enforcement"]
+  },
+  {
+    "char": "幾時",
+    "lshk": "gei2 si4",
+    "eng": "when? (colloquial)",
+    "labels": ["question", "time", "colloquial"]
+  },
+  {
+    "char": "於是",
+    "lshk": "jyu1 si6",
+    "eng": "so, therefore",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "至今",
+    "lshk": "zi3 gam1",
+    "eng": "until now, to date",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "同意",
+    "lshk": "tung4 ji3",
+    "eng": "agree, consent",
+    "labels": ["verb", "emotion"]
+  },
+  {
+    "char": "進入",
+    "lshk": "zeon3 jap6",
+    "eng": "enter, get into",
+    "labels": ["verb", "movement"]
+  },
+  {
+    "char": "多啲",
+    "lshk": "do1 di1",
+    "eng": "more (colloquial)",
+    "labels": ["quantity", "colloquial"]
+  },
+  {
+    "char": "減少",
+    "lshk": "gaam2 siu2",
+    "eng": "reduce, decrease",
+    "labels": ["verb", "quantity"]
+  },
+  {
+    "char": "事實",
+    "lshk": "si6 sat6",
+    "eng": "fact, truth",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "音樂",
+    "lshk": "jam1 ngok6",
+    "eng": "music",
+    "labels": ["art", "noun"]
+  },
+  {
+    "char": "法律",
+    "lshk": "faat3 leot6",
+    "eng": "law",
+    "labels": ["noun", "law"]
+  },
+  {
+    "char": "小學",
+    "lshk": "siu2 hok6",
+    "eng": "primary school, elementary school",
+    "labels": ["education", "building"]
+  },
+  {
+    "char": "決賽",
+    "lshk": "kyut3 coi3",
+    "eng": "final (match/competition)",
+    "labels": ["sport", "competition"]
+  },
+  {
+    "char": "功能",
+    "lshk": "gung1 nang4",
+    "eng": "function, feature",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "情緒",
+    "lshk": "cing4 seoi5",
+    "eng": "emotion, mood",
+    "labels": ["noun", "emotion"]
+  },
+  {
+    "char": "能夠",
+    "lshk": "nang4 gau3",
+    "eng": "can, be able to",
+    "labels": ["modal", "ability"]
+  },
+  {
+    "char": "上升",
+    "lshk": "soeng6 sing1",
+    "eng": "rise, ascend",
+    "labels": ["verb", "movement"]
+  },
+  {
+    "char": "身上",
+    "lshk": "san1 soeng6",
+    "eng": "on one's body, personal",
+    "labels": ["location", "body"]
+  },
+  {
+    "char": "報警",
+    "lshk": "bou3 ging2",
+    "eng": "report to police",
+    "labels": ["verb", "law enforcement"]
+  },
+  {
+    "char": "前鋒",
+    "lshk": "cin4 fung1",
+    "eng": "forward (sports), vanguard",
+    "labels": ["sport", "position"]
+  },
+  {
+    "char": "分享",
+    "lshk": "fan1 hoeng2",
+    "eng": "share",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "方式",
+    "lshk": "fong1 sik1",
+    "eng": "way, method",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "價錢",
+    "lshk": "gaa3 cin4",
+    "eng": "price",
+    "labels": ["finance", "noun"]
+  },
+  {
+    "char": "立即",
+    "lshk": "laap6 zik6",
+    "eng": "immediately, at once",
+    "labels": ["adverb", "time"]
+  },
+  {
+    "char": "效果",
+    "lshk": "haau6 gwo2",
+    "eng": "effect, result",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "合理",
+    "lshk": "hap6 lei5",
+    "eng": "reasonable, rational",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "主角",
+    "lshk": "zyu2 gok3",
+    "eng": "protagonist, main character",
+    "labels": ["art", "human"]
+  },
+  {
+    "char": "存在",
+    "lshk": "cyun4 zoi6",
+    "eng": "exist, existence",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "實際",
+    "lshk": "sat6 zai3",
+    "eng": "actual, practical",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "意思",
+    "lshk": "ji3 si1",
+    "eng": "meaning, idea",
+    "labels": ["noun", "communication"]
+  },
+  {
+    "char": "信心",
+    "lshk": "seon3 sam1",
+    "eng": "confidence, faith",
+    "labels": ["noun", "emotion"]
+  },
+  {
+    "char": "一切",
+    "lshk": "jat1 cai3",
+    "eng": "all, everything",
+    "labels": ["pronoun", "quantity"]
+  },
+  {
+    "char": "第三",
+    "lshk": "dai6 saam1",
+    "eng": "third, number three",
+    "labels": ["number", "ordinal"]
+  },
+  {
+    "char": "永遠",
+    "lshk": "wing5 jyun5",
+    "eng": "forever, always",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "股票",
+    "lshk": "gu2 piu3",
+    "eng": "stock, share (finance)",
+    "labels": ["finance", "noun"]
+  },
+  {
+    "char": "唔多",
+    "lshk": "m4 do1",
+    "eng": "not much, not many (colloquial)",
+    "labels": ["negative", "quantity", "colloquial"]
+  },
+  {
+    "char": "拍拖",
+    "lshk": "paak3 to1",
+    "eng": "date (a person), go steady (colloquial)",
+    "labels": ["relationship", "colloquial"]
+  },
+  {
+    "char": "下午",
+    "lshk": "haa6 ng5",
+    "eng": "afternoon",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "城市",
+    "lshk": "sing4 si5",
+    "eng": "city",
+    "labels": ["place", "common"]
+  },
+  {
+    "char": "交易",
+    "lshk": "gaau1 jik6",
+    "eng": "trade, transaction",
+    "labels": ["business", "noun"]
+  },
+  {
+    "char": "當日",
+    "lshk": "dong1 jat6",
+    "eng": "that day, same day",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "絕對",
+    "lshk": "zyut6 deoi3",
+    "eng": "absolute, absolutely",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "成績",
+    "lshk": "sing4 zik1",
+    "eng": "grade, achievement",
+    "labels": ["noun", "education"]
+  },
+  {
+    "char": "案件",
+    "lshk": "on3 gin2",
+    "eng": "case (legal), incident",
+    "labels": ["noun", "law"]
+  },
+  {
+    "char": "將會",
+    "lshk": "zoeng1 wui5",
+    "eng": "will, be going to (future marker)",
+    "labels": ["modal", "future"]
+  },
+  {
+    "char": "預期",
+    "lshk": "jyu6 kei4",
+    "eng": "expect, anticipate",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "不足",
+    "lshk": "bat1 zuk1",
+    "eng": "insufficient, not enough",
+    "labels": ["adjective", "quantity"]
+  },
+  {
+    "char": "歡迎",
+    "lshk": "fun1 jing4",
+    "eng": "welcome",
+    "labels": ["verb", "greeting"]
+  },
+  {
+    "char": "重新",
+    "lshk": "cung4 san1",
+    "eng": "re-, afresh, anew",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "堅持",
+    "lshk": "gin1 ci4",
+    "eng": "insist, persist",
+    "labels": ["verb", "action"]
+  },
+  {
+    "char": "之外",
+    "lshk": "zi1 ngoi6",
+    "eng": "apart from, besides",
+    "labels": ["preposition", "common"]
+  },
+  {
+    "char": "女友",
+    "lshk": "neoi5 jau5",
+    "eng": "girlfriend",
+    "labels": ["human", "relationship"]
+  },
+  {
+    "char": "本港",
+    "lshk": "bun2 gong2",
+    "eng": "this city/port (Hong Kong)",
+    "labels": ["place", "politics"]
+  },
+  {
+    "char": "責任",
+    "lshk": "zaak3 jam6",
+    "eng": "responsibility, duty",
+    "labels": ["noun", "social"]
+  },
+  {
+    "char": "專業",
+    "lshk": "zyun1 jip6",
+    "eng": "professional, profession",
+    "labels": ["adjective", "noun"]
+  },
+  {
+    "char": "除咗",
+    "lshk": "ceoi4 zo2",
+    "eng": "apart from, besides (colloquial)",
+    "labels": ["preposition", "colloquial"]
+  },
+  {
+    "char": "上網",
+    "lshk": "soeng5 mong5",
+    "eng": "go online, surf the internet",
+    "labels": ["verb", "technology"]
+  },
+  {
+    "char": "一早",
+    "lshk": "jat1 zou2",
+    "eng": "early in the morning, long ago (colloquial)",
+    "labels": ["time", "adverb", "colloquial"]
+  },
+  {
+    "char": "反映",
+    "lshk": "faan2 jing3",
+    "eng": "reflect, report",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "旺角",
+    "lshk": "wong6 gok2",
+    "eng": "Mong Kok (place in HK)",
+    "labels": ["place", "district"]
+  },
+  {
+    "char": "消費",
+    "lshk": "siu1 fai3",
+    "eng": "consume, consumption",
+    "labels": ["verb", "finance"]
+  },
+  {
+    "char": "系列",
+    "lshk": "hai6 lit6",
+    "eng": "series, set",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "這樣",
+    "lshk": "ze5 joeng6",
+    "eng": "this way, such",
+    "labels": ["adverb", "pronoun"]
+  },
+  {
+    "char": "維持",
+    "lshk": "wai4 ci4",
+    "eng": "maintain, preserve",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "立法",
+    "lshk": "laap6 faat3",
+    "eng": "legislate, legislation",
+    "labels": ["verb", "politics"]
+  },
+  {
+    "char": "一點",
+    "lshk": "jat1 dim2",
+    "eng": "a little, a bit",
+    "labels": ["quantity", "common"]
+  },
+  {
+    "char": "造成",
+    "lshk": "zou6 sing4",
+    "eng": "cause, result in",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "旅行",
+    "lshk": "leoi5 hang4",
+    "eng": "travel, tour",
+    "labels": ["verb", "activity"]
+  },
+  {
+    "char": "作出",
+    "lshk": "zok3 ceot1",
+    "eng": "make (a decision), take (action)",
+    "labels": ["verb", "action"]
+  },
+  {
+    "char": "起碼",
+    "lshk": "hei2 maa5",
+    "eng": "at least (colloquial)",
+    "labels": ["adverb", "colloquial"]
+  },
+  {
+    "char": "曾經",
+    "lshk": "cang4 ging1",
+    "eng": "once, formerly, in the past",
+    "labels": ["adverb", "time"]
+  },
+  {
+    "char": "食物",
+    "lshk": "sik6 mat6",
+    "eng": "food",
+    "labels": ["noun", "food"]
+  },
+  {
+    "char": "病人",
+    "lshk": "beng6 jan4",
+    "eng": "patient (medical)",
+    "labels": ["human", "health"]
+  },
+  {
+    "char": "自殺",
+    "lshk": "zi6 saat3",
+    "eng": "suicide",
+    "labels": ["verb", "social issue"]
+  },
+  {
+    "char": "專家",
+    "lshk": "zyun1 gaa1",
+    "eng": "expert, specialist",
+    "labels": ["human", "occupation"]
+  },
+  {
+    "char": "資產",
+    "lshk": "zi1 caan2",
+    "eng": "asset",
+    "labels": ["finance", "noun"]
+  },
+  {
+    "char": "以後",
+    "lshk": "ji5 hau6",
+    "eng": "after, hereafter",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "究竟",
+    "lshk": "gau3 ging2",
+    "eng": "after all, ultimately (in questions)",
+    "labels": ["adverb", "question"]
+  },
+  {
+    "char": "整個",
+    "lshk": "zing2 go3",
+    "eng": "whole, entire",
+    "labels": ["adjective", "quantity"]
+  },
+  {
+    "char": "諗住",
+    "lshk": "nam2 zyu6",
+    "eng": "intend to, plan to (colloquial)",
+    "labels": ["verb", "colloquial"]
+  },
+  {
+    "char": "程度",
+    "lshk": "cing4 dou6",
+    "eng": "degree, extent",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "本來",
+    "lshk": "bun2 loi4",
+    "eng": "originally, at first",
+    "labels": ["adverb", "time"]
+  },
+  {
+    "char": "前日",
+    "lshk": "cin4 jat6",
+    "eng": "the day before yesterday",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "多數",
+    "lshk": "do1 sou3",
+    "eng": "majority, most (of the time)",
+    "labels": ["quantity", "adverb"]
+  },
+  {
+    "char": "實力",
+    "lshk": "sat6 lik6",
+    "eng": "strength, actual power",
+    "labels": ["noun", "ability"]
+  },
+  {
+    "char": "上面",
+    "lshk": "soeng6 min6",
+    "eng": "above, on top, previous",
+    "labels": ["location", "common"]
+  },
+  {
+    "char": "個案",
+    "lshk": "go3 on3",
+    "eng": "case (individual instance)",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "攻擊",
+    "lshk": "gung1 gik1",
+    "eng": "attack, assault",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "只能",
+    "lshk": "zi2 nang4",
+    "eng": "can only, merely can",
+    "labels": ["modal", "limitation"]
+  },
+  {
+    "char": "動作",
+    "lshk": "dung6 zok3",
+    "eng": "action, movement",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "網民",
+    "lshk": "mong5 man4",
+    "eng": "netizen, internet user",
+    "labels": ["human", "technology"]
+  },
+  {
+    "char": "經常",
+    "lshk": "ging1 soeng4",
+    "eng": "often, frequently",
+    "labels": ["adverb", "time"]
+  },
+  {
+    "char": "傳統",
+    "lshk": "cyun4 tung2",
+    "eng": "tradition, traditional",
+    "labels": ["noun", "adjective"]
+  },
+  {
+    "char": "資源",
+    "lshk": "zi1 jyun4",
+    "eng": "resource",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "似乎",
+    "lshk": "ci5 fu4",
+    "eng": "seem, appear to be",
+    "labels": ["adverb", "perception"]
+  },
+  {
+    "char": "二手",
+    "lshk": "ji6 sau2",
+    "eng": "second-hand",
+    "labels": ["adjective", "business"]
+  },
+  {
+    "char": "導致",
+    "lshk": "dou6 zi3",
+    "eng": "cause, lead to",
+    "labels": ["verb", "cause and effect"]
+  },
+  {
+    "char": "死亡",
+    "lshk": "sei2 mong4",
+    "eng": "death, die",
+    "labels": ["noun", "verb"]
+  },
+  {
+    "char": "宣佈",
+    "lshk": "syun1 bou3",
+    "eng": "announce, declare",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "男友",
+    "lshk": "naam4 jau5",
+    "eng": "boyfriend",
+    "labels": ["human", "relationship"]
+  },
+  {
+    "char": "有錢",
+    "lshk": "jau5 cin2",
+    "eng": "have money, rich",
+    "labels": ["adjective", "finance"]
+  },
+  {
+    "char": "連續",
+    "lshk": "lin4 zuk6",
+    "eng": "continuous, consecutive",
+    "labels": ["adjective", "time"]
+  },
+  {
+    "char": "資金",
+    "lshk": "zi1 gam1",
+    "eng": "funds, capital",
+    "labels": ["finance", "noun"]
+  },
+  {
+    "char": "明明",
+    "lshk": "ming4 ming4",
+    "eng": "obviously, clearly (implies surprise/disagreement)",
+    "labels": ["adverb", "emotion"]
+  },
+  {
+    "char": "病毒",
+    "lshk": "beng6 duk6",
+    "eng": "virus",
+    "labels": ["health", "science"]
+  },
+  {
+    "char": "增長",
+    "lshk": "zang1 zoeng2",
+    "eng": "increase, growth",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "多謝",
+    "lshk": "do1 ze6",
+    "eng": "thank you",
+    "labels": ["greeting", "expression"]
+  },
+  {
+    "char": "人數",
+    "lshk": "jan4 sou3",
+    "eng": "number of people",
+    "labels": ["quantity", "human"]
+  },
+  {
+    "char": "配合",
+    "lshk": "pui3 hap6",
+    "eng": "cooperate, coordinate",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "啲人",
+    "lshk": "di1 jan4",
+    "eng": "some people, those people (colloquial)",
+    "labels": ["quantity", "colloquial"]
+  },
+  {
+    "char": "女仔",
+    "lshk": "neoi5 zai2",
+    "eng": "girl (colloquial)",
+    "labels": ["human", "gender", "colloquial"]
+  },
+  {
+    "char": "條例",
+    "lshk": "tiu4 lai6",
+    "eng": "ordinance, regulations",
+    "labels": ["noun", "law"]
+  },
+  {
+    "char": "有機",
+    "lshk": "jau5 gei1",
+    "eng": "organic, possibly",
+    "labels": ["adjective", "possibility"]
+  },
+  {
+    "char": "攝影",
+    "lshk": "sip3 jing2",
+    "eng": "photography, film",
+    "labels": ["art", "technology"]
+  },
+  {
+    "char": "一起",
+    "lshk": "jat1 hei2",
+    "eng": "together (formal)",
+    "labels": ["adverb", "formal"]
+  },
+  {
+    "char": "隔離",
+    "lshk": "gaak3 lei4",
+    "eng": "isolate, quarantine",
+    "labels": ["verb", "health"]
+  },
+  {
+    "char": "人工",
+    "lshk": "jan4 gung1",
+    "eng": "salary, artificial",
+    "labels": ["noun", "finance", "adjective"]
+  },
+  {
+    "char": "今天",
+    "lshk": "gam1 tin1",
+    "eng": "today (formal)",
+    "labels": ["time", "formal"]
+  },
+  {
+    "char": "拍攝",
+    "lshk": "paak3 sip3",
+    "eng": "shoot (film/photo), take a picture",
+    "labels": ["verb", "art"]
+  },
+  {
+    "char": "幫手",
+    "lshk": "bong1 sau2",
+    "eng": "help (colloquial)",
+    "labels": ["verb", "colloquial"]
+  },
+  {
+    "char": "接近",
+    "lshk": "zip3 gan6",
+    "eng": "close to, approach",
+    "labels": ["verb", "location"]
+  },
+  {
+    "char": "股價",
+    "lshk": "gu2 gaa3",
+    "eng": "stock price",
+    "labels": ["finance", "noun"]
+  },
+  {
+    "char": "之間",
+    "lshk": "zi1 gaan1",
+    "eng": "between, among",
+    "labels": ["location", "common"]
+  },
+  {
+    "char": "項目",
+    "lshk": "hong6 muk6",
+    "eng": "item, project",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "中文",
+    "lshk": "zung1 man2",
+    "eng": "Chinese (language)",
+    "labels": ["language", "education"]
+  },
+  {
+    "char": "訓練",
+    "lshk": "fan3 lin6",
+    "eng": "train, training",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "年輕",
+    "lshk": "nin4 hing1",
+    "eng": "young",
+    "labels": ["adjective", "age"]
+  },
+  {
+    "char": "當局",
+    "lshk": "dong1 guk6",
+    "eng": "authorities",
+    "labels": ["politics", "organization"]
+  },
+  {
+    "char": "地點",
+    "lshk": "dei6 dim2",
+    "eng": "location, venue",
+    "labels": ["place", "common"]
+  },
+  {
+    "char": "而家",
+    "lshk": "ji4 gaa1",
+    "eng": "now (colloquial)",
+    "labels": ["time", "colloquial"]
+  },
+  {
+    "char": "理由",
+    "lshk": "lei5 jau4",
+    "eng": "reason, justification",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "利用",
+    "lshk": "lei6 jung6",
+    "eng": "utilize, make use of",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "打算",
+    "lshk": "daa2 syun3",
+    "eng": "plan, intend",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "質疑",
+    "lshk": "zat1 ji4",
+    "eng": "question, challenge (doubt)",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "媽媽",
+    "lshk": "maa4 maa1",
+    "eng": "mom, mother (colloquial)",
+    "labels": ["human", "family", "colloquial"]
+  },
+  {
+    "char": "休息",
+    "lshk": "jau1 sik1",
+    "eng": "rest",
+    "labels": ["verb", "activity"]
+  },
+  {
+    "char": "距離",
+    "lshk": "keoi5 lei4",
+    "eng": "distance",
+    "labels": ["noun", "space"]
+  },
+  {
+    "char": "印度",
+    "lshk": "jan3 dou6",
+    "eng": "India",
+    "labels": ["place", "country"]
+  },
+  {
+    "char": "跟住",
+    "lshk": "gan1 zyu6",
+    "eng": "follow, then (colloquial)",
+    "labels": ["verb", "adverb", "colloquial"]
+  },
+  {
+    "char": "球會",
+    "lshk": "kau4 wui2",
+    "eng": "football club",
+    "labels": ["sport", "organization"]
+  },
+  {
+    "char": "日子",
+    "lshk": "jat6 zi2",
+    "eng": "day, days",
+    "labels": ["time", "noun"]
+  },
+  {
+    "char": "時代",
+    "lshk": "si4 doi6",
+    "eng": "era, age",
+    "labels": ["time", "noun"]
+  },
+  {
+    "char": "認同",
+    "lshk": "jing6 tung4",
+    "eng": "agree with, identify with",
+    "labels": ["verb", "emotion"]
+  },
+  {
+    "char": "聯絡",
+    "lshk": "lyun4 lok3",
+    "eng": "contact",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "後來",
+    "lshk": "hau6 loi4",
+    "eng": "later, afterwards",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "九龍",
+    "lshk": "gau2 lung4",
+    "eng": "Kowloon (place in HK)",
+    "labels": ["place", "district"]
+  },
+  {
+    "char": "挑戰",
+    "lshk": "tiu1 zin3",
+    "eng": "challenge",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "冇得",
+    "lshk": "mou5 dak1",
+    "eng": "cannot, no way to (colloquial)",
+    "labels": ["negative", "modal", "colloquial"]
+  },
+  {
+    "char": "前線",
+    "lshk": "cin4 sin3",
+    "eng": "front line",
+    "labels": ["location", "common"]
+  },
+  {
+    "char": "狀態",
+    "lshk": "zong6 taai3",
+    "eng": "state, condition",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "半場",
+    "lshk": "bun3 coeng4",
+    "eng": "half-time (sports), half a scene",
+    "labels": ["sport", "time"]
+  },
+  {
+    "char": "成立",
+    "lshk": "sing4 laap6",
+    "eng": "establish, set up",
+    "labels": ["verb", "organization"]
+  },
+  {
+    "char": "不可",
+    "lshk": "bat1 ho2",
+    "eng": "cannot, must not (formal)",
+    "labels": ["negative", "modal", "formal"]
+  },
+  {
+    "char": "形容",
+    "lshk": "jing4 jung4",
+    "eng": "describe",
+    "labels": ["verb", "communication"]
+  },
+  {
+    "char": "最佳",
+    "lshk": "zeoi3 gaai1",
+    "eng": "best, optimal",
+    "labels": ["adjective", "superlative"]
+  },
+  {
+    "char": "私人",
+    "lshk": "si1 jan4",
+    "eng": "private, personal",
+    "labels": ["adjective", "common"]
+  },
+  {
+    "char": "公屋",
+    "lshk": "gung1 uk1",
+    "eng": "public housing (HK)",
+    "labels": ["housing", "politics"]
+  },
+  {
+    "char": "上海",
+    "lshk": "soeng6 hoi2",
+    "eng": "Shanghai",
+    "labels": ["place", "city"]
+  },
+  {
+    "char": "讀書",
+    "lshk": "duk6 syu1",
+    "eng": "study, read",
+    "labels": ["verb", "education"]
+  },
+  {
+    "char": "指數",
+    "lshk": "zi2 sou3",
+    "eng": "index, indicator",
+    "labels": ["noun", "finance"]
+  },
+  {
+    "char": "好彩",
+    "lshk": "hou2 coi2",
+    "eng": "lucky, fortunately (colloquial)",
+    "labels": ["adjective", "colloquial"]
+  },
+  {
+    "char": "樓價",
+    "lshk": "lau4 gaa3",
+    "eng": "property price, housing price",
+    "labels": ["finance", "housing"]
+  },
+  {
+    "char": "如此",
+    "lshk": "jyu4 ci2",
+    "eng": "thus, in this way (formal)",
+    "labels": ["adverb", "formal"]
+  },
+  {
+    "char": "肺炎",
+    "lshk": "fai3 jim4",
+    "eng": "pneumonia",
+    "labels": ["health", "disease"]
+  },
+  {
+    "char": "港股",
+    "lshk": "gong2 gu2",
+    "eng": "Hong Kong stocks",
+    "labels": ["finance", "business"]
+  },
+  {
+    "char": "分手",
+    "lshk": "fan1 sau2",
+    "eng": "break up (a relationship)",
+    "labels": ["verb", "relationship"]
+  },
+  {
+    "char": "尊重",
+    "lshk": "zyun1 zung6",
+    "eng": "respect",
+    "labels": ["verb", "emotion"]
+  },
+  {
+    "char": "身邊",
+    "lshk": "san1 bin1",
+    "eng": "at one's side, around (a person)",
+    "labels": ["location", "common"]
+  },
+  {
+    "char": "會議",
+    "lshk": "wui6 ji5",
+    "eng": "meeting, conference",
+    "labels": ["noun", "event"]
+  },
+  {
+    "char": "否則",
+    "lshk": "fau2 zak1",
+    "eng": "otherwise, if not",
+    "labels": ["conjunction", "common"]
+  },
+  {
+    "char": "中環",
+    "lshk": "zung1 waan4",
+    "eng": "Central (place in HK)",
+    "labels": ["place", "district"]
+  },
+  {
+    "char": "喜歡",
+    "lshk": "hei2 fun1",
+    "eng": "like, prefer (formal)",
+    "labels": ["verb", "emotion", "formal"]
+  },
+  {
+    "char": "鏡頭",
+    "lshk": "geng3 tau4",
+    "eng": "camera lens, shot (film)",
+    "labels": ["technology", "art"]
+  },
+  {
+    "char": "利益",
+    "lshk": "lei6 jik1",
+    "eng": "benefit, interest",
+    "labels": ["noun", "finance"]
+  },
+  {
+    "char": "兒子",
+    "lshk": "ji4 zi2",
+    "eng": "son",
+    "labels": ["human", "family"]
+  },
+  {
+    "char": "預計",
+    "lshk": "jyu6 gai3",
+    "eng": "estimate, predict",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "事後",
+    "lshk": "si6 hau6",
+    "eng": "after the event, afterwards",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "緊張",
+    "lshk": "gan2 zoeng1",
+    "eng": "nervous, tense",
+    "labels": ["adjective", "emotion"]
+  },
+  {
+    "char": "不滿",
+    "lshk": "bat1 mun5",
+    "eng": "dissatisfied, unhappy",
+    "labels": ["adjective", "emotion"]
+  },
+  {
+    "char": "居民",
+    "lshk": "geoi1 man4",
+    "eng": "resident, inhabitant",
+    "labels": ["human", "place"]
+  },
+  {
+    "char": "方向",
+    "lshk": "fong1 hoeng3",
+    "eng": "direction",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "女子",
+    "lshk": "neoi5 zi2",
+    "eng": "woman, female (formal)",
+    "labels": ["human", "gender", "formal"]
+  },
+  {
+    "char": "經歷",
+    "lshk": "ging1 lik6",
+    "eng": "experience, go through",
+    "labels": ["noun", "verb"]
+  },
+  {
+    "char": "態度",
+    "lshk": "taai3 dou6",
+    "eng": "attitude",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "冇乜",
+    "lshk": "mou5 mat1",
+    "eng": "not much, not really (colloquial)",
+    "labels": ["negative", "quantity", "colloquial"]
+  },
+  {
+    "char": "廣東",
+    "lshk": "gwong2 dung1",
+    "eng": "Guangdong (province)",
+    "labels": ["place", "province"]
+  },
+  {
+    "char": "公眾",
+    "lshk": "gung1 zung3",
+    "eng": "public",
+    "labels": ["noun", "society"]
+  },
+  {
+    "char": "不停",
+    "lshk": "bat1 ting4",
+    "eng": "continuously, non-stop",
+    "labels": ["adverb", "time"]
+  },
+  {
+    "char": "照顧",
+    "lshk": "ziu3 gu3",
+    "eng": "take care of, look after",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "聖誕",
+    "lshk": "sing3 daan3",
+    "eng": "Christmas",
+    "labels": ["holiday", "culture"]
+  },
+  {
+    "char": "制度",
+    "lshk": "zai3 dou6",
+    "eng": "system, institution",
+    "labels": ["noun", "politics"]
+  },
+  {
+    "char": "人民幣",
+    "lshk": "jan4 man4 bai6",
+    "eng": "Renminbi (Chinese currency)",
+    "labels": ["currency", "finance"]
+  },
+  {
+    "char": "到場",
+    "lshk": "dou3 coeng4",
+    "eng": "arrive at the scene/venue",
+    "labels": ["verb", "movement"]
+  },
+  {
+    "char": "自動",
+    "lshk": "zi6 dung6",
+    "eng": "automatic, voluntarily",
+    "labels": ["adjective", "adverb"]
+  },
+  {
+    "char": "合約",
+    "lshk": "hap6 joek3",
+    "eng": "contract",
+    "labels": ["noun", "business"]
+  },
+  {
+    "char": "上市",
+    "lshk": "soeng5 si5",
+    "eng": "list (on stock exchange), go public",
+    "labels": ["verb", "finance"]
+  },
+  {
+    "char": "一時",
+    "lshk": "jat1 si4",
+    "eng": "for a moment, temporary",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "標準",
+    "lshk": "biu1 zeon2",
+    "eng": "standard, criterion",
+    "labels": ["noun", "adjective"]
+  },
+  {
+    "char": "保安",
+    "lshk": "bou2 on1",
+    "eng": "security (guard/service)",
+    "labels": ["noun", "occupation"]
+  },
+  {
+    "char": "深圳",
+    "lshk": "sam1 zan3",
+    "eng": "Shenzhen (city in China)",
+    "labels": ["place", "city"]
+  },
+  {
+    "char": "危險",
+    "lshk": "ngai4 him2",
+    "eng": "danger, dangerous",
+    "labels": ["noun", "adjective"]
+  },
+  {
+    "char": "重點",
+    "lshk": "zung6 dim2",
+    "eng": "key point, emphasis",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "地下",
+    "lshk": "dei6 haa6",
+    "eng": "underground, subway (Cantonese specific)",
+    "labels": ["location", "transport", "colloquial"]
+  },
+  {
+    "char": "地下",
+    "lshk": "dei6 haa2",
+    "eng": "ground floor, underground (common)",
+    "labels": ["location", "common"]
+  },
+  {
+    "char": "相當",
+    "lshk": "soeng1 dong1",
+    "eng": "quite, considerably",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "獲得",
+    "lshk": "wok6 dak1",
+    "eng": "obtain, gain",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "表演",
+    "lshk": "biu2 jin2",
+    "eng": "perform, performance",
+    "labels": ["verb", "art"]
+  },
+  {
+    "char": "到底",
+    "lshk": "dou3 dai2",
+    "eng": "in the end, after all",
+    "labels": ["adverb", "question"]
+  },
+  {
+    "char": "尤其",
+    "lshk": "jau4 kei4",
+    "eng": "especially, particularly",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "現實",
+    "lshk": "jin6 sat6",
+    "eng": "reality, realistic",
+    "labels": ["noun", "adjective"]
+  },
+  {
+    "char": "科技",
+    "lshk": "fo1 gei3",
+    "eng": "science and technology",
+    "labels": ["noun", "technology"]
+  },
+  {
+    "char": "作客",
+    "lshk": "zok3 haak3",
+    "eng": "play away (sports), be a guest",
+    "labels": ["verb", "sport"]
+  },
+  {
+    "char": "數字",
+    "lshk": "sou3 zi6",
+    "eng": "number, figure",
+    "labels": ["noun", "quantity"]
+  },
+  {
+    "char": "老公",
+    "lshk": "lou5 gung1",
+    "eng": "husband (colloquial)",
+    "labels": ["human", "family", "colloquial"]
+  },
+  {
+    "char": "雙方",
+    "lshk": "soeng1 fong1",
+    "eng": "both sides, bilateral",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "取得",
+    "lshk": "ceoi2 dak1",
+    "eng": "obtain, acquire",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "基本上",
+    "lshk": "gei1 bun2 soeng6",
+    "eng": "basically, fundamentally",
+    "labels": ["adverb", "common"]
+  },
+  {
+    "char": "因素",
+    "lshk": "jan1 sou3",
+    "eng": "factor, element",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "的士",
+    "lshk": "dik1 si2",
+    "eng": "taxi",
+    "labels": ["transport", "vehicle"]
+  },
+  {
+    "char": "然而",
+    "lshk": "jin4 ji4",
+    "eng": "however, yet (formal)",
+    "labels": ["conjunction", "formal"]
+  },
+  {
+    "char": "就話",
+    "lshk": "zau6 waa6",
+    "eng": "then said, simply said (colloquial)",
+    "labels": ["verb", "colloquial"]
+  },
+  {
+    "char": "退休",
+    "lshk": "teoi3 jau1",
+    "eng": "retire",
+    "labels": ["verb", "life stage"]
+  },
+  {
+    "char": "上次",
+    "lshk": "soeng6 ci3",
+    "eng": "last time",
+    "labels": ["time", "common"]
+  },
+  {
+    "char": "認識",
+    "lshk": "jing6 sik1",
+    "eng": "know, recognize",
+    "labels": ["verb", "cognition"]
+  },
+  {
+    "char": "接觸",
+    "lshk": "zip3 zuk1",
+    "eng": "contact, touch",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "協助",
+    "lshk": "hip3 zo6",
+    "eng": "assist, help",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "針對",
+    "lshk": "zam1 deoi3",
+    "eng": "target, aim at",
+    "labels": ["verb", "action"]
+  },
+  {
+    "char": "心情",
+    "lshk": "sam1 cing4",
+    "eng": "mood, state of mind",
+    "labels": ["noun", "emotion"]
+  },
+  {
+    "char": "交通",
+    "lshk": "gaau1 tung1",
+    "eng": "traffic, transport",
+    "labels": ["noun", "transport"]
+  },
+  {
+    "char": "失去",
+    "lshk": "sat1 heoi3",
+    "eng": "lose",
+    "labels": ["verb", "common"]
+  },
+  {
+    "char": "屯門",
+    "lshk": "tyun4 mun4",
+    "eng": "Tuen Mun (place in HK)",
+    "labels": ["place", "district"]
+  },
+  {
+    "char": "疫苗",
+    "lshk": "jik6 miu4",
+    "eng": "vaccine",
+    "labels": ["health", "medicine"]
+  },
+  {
+    "char": "再次",
+    "lshk": "zoi3 ci3",
+    "eng": "again, once more",
+    "labels": ["adverb", "repetition"]
+  },
+  {
+    "char": "欣賞",
+    "lshk": "jan1 so2",
+    "eng": "appreciate, enjoy",
+    "labels": ["verb", "emotion"]
+  },
+  {
+    "char": "地產",
+    "lshk": "dei6 caan2",
+    "eng": "real estate, property",
+    "labels": ["business", "finance"]
+  },
+  {
+    "char": "一步",
+    "lshk": "jat1 bou6",
+    "eng": "one step",
+    "labels": ["quantity", "movement"]
+  },
+  {
+    "char": "除非",
+    "lshk": "ceoi4 fei1",
+    "eng": "unless",
+    "labels": ["conjunction", "conditional"]
+  },
+  {
+    "char": "官員",
+    "lshk": "gun1 jyun4",
+    "eng": "official, officer",
+    "labels": ["human", "politics"]
+  },
+  {
+    "char": "業務",
+    "lshk": "jip6 mou6",
+    "eng": "business, operations",
+    "labels": ["noun", "business"]
+  },
+  {
+    "char": "官方",
+    "lshk": "gun1 fong1",
+    "eng": "official",
+    "labels": ["adjective", "politics"]
+  },
+  {
+    "char": "近期",
+    "lshk": "gan6 kei4",
+    "eng": "recently, in the near future",
+    "labels": ["time", "adverb"]
+  },
+  {
+    "char": "組合",
+    "lshk": "zou2 hap6",
+    "eng": "combine, combination",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "治療",
+    "lshk": "zi6 liu4",
+    "eng": "treat, therapy",
+    "labels": ["verb", "health"]
+  },
+  {
+    "char": "條件",
+    "lshk": "tiu4 gin2",
+    "eng": "condition, prerequisite",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "破壞",
+    "lshk": "po3 waai6",
+    "eng": "destroy, damage",
+    "labels": ["verb", "action"]
+  },
+  {
+    "char": "失敗",
+    "lshk": "sat1 baai6",
+    "eng": "fail, failure",
+    "labels": ["verb", "noun"]
+  },
+  {
+    "char": "資格",
+    "lshk": "zi1 gaak3",
+    "eng": "qualification, eligibility",
+    "labels": ["noun", "common"]
+  },
+  {
+    "char": "女性",
+    "lshk": "neoi5 sing3",
+    "eng": "female (gender), women",
+    "labels": ["noun", "gender"]
+  },
+  {
+    "char": "星期六",
+    "lshk": "sing1 kei4 luk6",
+    "eng": "Saturday",
+    "labels": ["time", "day of week"]
+  },
+  {
+    "char": "平行四邊形",
+    "lshk": "ping4 hang4 sei3 bin1 jing4",
+    "eng": "parallelogram",
+    "labels": ["math", "geometry"]
+  },
+  {
+    "char": "快刀斬亂麻",
+    "lshk": "faai3 dou1 zaam2 lyun6 maa4",
+    "eng": "cut the Gordian knot, take decisive action (idiom)",
+    "labels": ["idiom", "action"]
+  },
+  {
+    "char": "當紅炸子雞",
+    "lshk": "dong1 hung4 zaa3 zi2 gai1",
+    "eng": "hotshot, rising star",
+    "labels": ["idiom", "human"]
+  },
+  {
+    "char": "心靜自然涼",
+    "lshk": "sam1 zing6 zi6 jin4 loeng4",
+    "eng": "a quiet mind brings natural coolness",
+    "labels": ["idiom", "emotion"]
+  },
+  {
+    "char": "水蛇春咁長",
+    "lshk": "seoi2 se4 ceon1 gam3 coeng4",
+    "eng": "very long like a water snake's spring",
+    "labels": ["idiom", "colloquial"]
+  },
+  {
+    "char": "脱氧核醣核酸",
+    "lshk": "tyut3 joeng5 hat6 tong4 hat6 syun1",
+    "eng": "deoxyribonucleic acid (DNA)",
+    "labels": ["science", "biology"]
+  },
+  {
+    "char": "喜瑪拉雅山",
+    "lshk": "hei2 maa5 laai1 ngaa5 saan1",
+    "eng": "Himalaya Mountains",
+    "labels": ["place", "geography"]
+  },
+  {
+    "char": "招股説明書",
+    "lshk": "ziu1 gu2 syut3 ming4 syu1",
+    "eng": "prospectus for stock offering",
+    "labels": ["finance", "document"]
+  },
+  {
+    "char": "心肝脾肺腎",
+    "lshk": "sam1 gon1 pei4 fai3 san6",
+    "eng": "heart, liver, spleen, lungs, kidneys",
+    "labels": ["body part", "medicine"]
+  },
+  {
+    "char": "阿諾舒華辛力加",
+    "lshk": "aa3 nok6 syu1 waa4 san1 lik6 gaa1",
+    "eng": "Arnold Schwarzenegger",
+    "labels": ["human", "name"]
+  },
+  {
+    "char": "執輸行頭慘過敗家",
+    "lshk": "zap1 syu1 haang4 tau4 caam2 gwo3 baai6 gaa1",
+    "eng": "it's worse to miss out on an opportunity than to lose money (idiom)",
+    "labels": ["idiom", "proverb"]
+  }
+]
