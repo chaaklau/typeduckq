@@ -335,7 +335,7 @@ class TypingGame {
         this.startTime = 0;
         this.wordsTyped = 0;
         this.wordSpawnTimer = 0;
-        this.wordSpawnInterval = 2000; // Start with 2 seconds
+        this.wordSpawnInterval = 6700; // Start with 6.7 seconds (70% slower than 2 seconds)
         this.baseSpeed = 30; // Much slower base falling speed
         this.currentSpeed = 30;
         this.maxSpeed = 60; // Cap speed around 50 WPM equivalent
@@ -497,7 +497,7 @@ class TypingGame {
             this.speedLevel = newSpeedLevel;
             // More gradual speed increase with cap
             this.currentSpeed = Math.min(this.maxSpeed, this.baseSpeed + (this.speedLevel - 1) * 4);
-            this.wordSpawnInterval = Math.max(1200, 2000 - (this.speedLevel - 1) * 150);
+            this.wordSpawnInterval = Math.max(4000, 6700 - (this.speedLevel - 1) * 500);
         }
 
         // Move falling words down
@@ -1191,7 +1191,7 @@ class TypingGame {
         this.missedWords = 0;
         this.speedLevel = 1;
         this.currentSpeed = this.baseSpeed;
-        this.wordSpawnInterval = 2000;
+        this.wordSpawnInterval = 6700;
         this.wordSpawnTimer = 0; // Reset spawn timer
         this.gameOverTime = null;
         this.countdownActive = false;
@@ -1235,7 +1235,7 @@ class TypingGame {
         this.missedWords = 0;
         this.speedLevel = 1;
         this.currentSpeed = this.baseSpeed;
-        this.wordSpawnInterval = 2000;
+        this.wordSpawnInterval = 6700;
         this.gameOverTime = null;
         this.countdownActive = false;
         this.countdownStarted = false;

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Typing Duck Game</title>
+    <title>TypeDuckQ 打得隙</title>
     <style>
         body {
             margin: 0;
@@ -201,6 +201,62 @@
             margin-bottom: 10px;
             font-size: 28px;
             text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        
+        .welcome-section {
+            margin-bottom: 25px;
+            padding: 20px;
+            background: rgba(15, 52, 96, 0.4);
+            border-radius: 12px;
+            border: 1px solid #4ade80;
+        }
+        
+        .welcome-title {
+            font-size: 24px;
+            color: #4ade80;
+            margin-bottom: 15px;
+            text-align: center;
+            font-weight: bold;
+        }
+        
+        .welcome-text {
+            color: #9ca3af;
+            margin: 8px 0;
+            font-size: 16px;
+            text-align: center;
+        }
+        
+        .typeduck-link {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #60a5fa, #3b82f6);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: all 0.3s ease;
+            border: 1px solid #2563eb;
+        }
+        
+        .typeduck-link:hover {
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+        }
+        
+        .typeduck-logo {
+            height: 40px;
+            width: auto;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+        
+        .welcome-title-with-logo {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 15px;
         }
         
         .start-modal-content p {
@@ -425,7 +481,24 @@
         <!-- Game start buttons -->
         <div id="start-game-modal">
             <div class="start-modal-content">
-                <h2>🦆 Choose Game Mode</h2>
+                <h2>
+                    <img src="typeduck.png" alt="TypeDuck Logo" class="typeduck-logo">
+                    TypeDuckQ 打得隙
+                </h2>
+                
+                <div class="welcome-section">
+                    <div class="welcome-text">挑戰你嘅粵拼速度</div>
+                    <div class="welcome-text">歡迎「打得」之人嚟挑戰</div>
+                    <div class="welcome-text">打得多自然打得Quick</div>
+                    <div class="welcome-text">Learn TypeDuck · TypeDuck Quick D</div>
+                    <div style="text-align: center;">
+                        <a href="https://typeduck.hk" target="_blank" class="typeduck-link">
+                            <img src="typeduck.png" alt="TypeDuck" class="typeduck-logo">
+                            Visit TypeDuck →
+                        </a>
+                    </div>
+                </div>
+                
                 <p>Select your preferred typing mode to begin playing</p>
                 
                 <div class="start-buttons-container">
