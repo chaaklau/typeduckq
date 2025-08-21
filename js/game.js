@@ -307,6 +307,30 @@ class GameScene extends Phaser.Scene {
 }
 
 class TypingGame {
+    // --- VXQ Tone Toggle ---
+    vxqMode = false;
+
+    // Converts v/x/q sequences to tone numbers for display/checking
+    static vxqToTone(str) {
+        return str
+            .replace(/qq/g, '6')
+            .replace(/vv/g, '4')
+            .replace(/xx/g, '5')
+            .replace(/q/g, '3')
+            .replace(/v/g, '1')
+            .replace(/x/g, '2');
+    }
+
+    // Converts tone numbers to vxq for display (optional, not used for now)
+    static toneToVxq(str) {
+        return str
+            .replace(/6/g, 'qq')
+            .replace(/5/g, 'xx')
+            .replace(/4/g, 'vv')
+            .replace(/3/g, 'q')
+            .replace(/2/g, 'x')
+            .replace(/1/g, 'v');
+    }
     constructor() {
         this.config = {
             type: Phaser.AUTO,
@@ -362,7 +386,8 @@ class TypingGame {
         };
         
         // Tone mode setting
-        this.tonelessMode = false;
+    this.tonelessMode = false;
+    this.vxqMode = false;
         
         this.game = new Phaser.Game(this.config);
         this.loadWords().then(() => {
@@ -766,24 +791,29 @@ class TypingGame {
 
     updateInputDisplay() {
         if (this.inputDisplay) {
-            this.inputDisplay.setText(`${this.currentInput}`);
+            let display = this.currentInput;
+            if (this.vxqMode) {
+                display = TypingGame.vxqToTone(display);
+            }
+            this.inputDisplay.setText(display);
         }
     }
 
     highlightMatchingWords() {
         if (!this.fallingWordsGroup) return;
-        
         let currentTarget = null;
         const wordsToCheck = [...this.fallingWordsGroup.children.entries];
-        
         wordsToCheck.forEach(wordSprite => {
-            if (!wordSprite.active) return; // Skip destroyed words
-            
+            if (!wordSprite.active) return;
             // Remove spaces from input for comparison
-            const inputNoSpaces = this.currentInput.replace(/\s+/g, '').toLowerCase();
+            let inputNoSpaces = this.currentInput.replace(/\s+/g, '').toLowerCase();
             let targetLshk = wordSprite.wordData.lshk.toLowerCase();
-            const targetNoSpaces = targetLshk.replace(/\s+/g, '');
-            
+            let targetNoSpaces = targetLshk.replace(/\s+/g, '');
+            // VXQ mode: convert both input and target
+            if (this.vxqMode) {
+                inputNoSpaces = TypingGame.vxqToTone(inputNoSpaces);
+                targetNoSpaces = TypingGame.vxqToTone(targetNoSpaces);
+            }
             let matches = false;
             if (this.tonelessMode) {
                 const inputToneless = inputNoSpaces.replace(/\d/g, '');
@@ -792,14 +822,9 @@ class TypingGame {
             } else {
                 matches = targetNoSpaces.startsWith(inputNoSpaces) && inputNoSpaces.length > 0;
             }
-            
             if (matches) {
-                if (!currentTarget) {
-                    currentTarget = wordSprite; // First matching word becomes target
-                }
-                
+                if (!currentTarget) currentTarget = wordSprite;
                 if (!wordSprite.isHighlighted) {
-                    // Highlight by changing fill color to green
                     if (wordSprite.bgOuter) {
                         try {
                             if (wordSprite.bgOuter.setFillStyle) {
@@ -807,15 +832,12 @@ class TypingGame {
                             } else {
                                 wordSprite.bgOuter.fillColor = 0x10b981;
                             }
-                        } catch (e) {
-                            console.log('Highlight method not available:', e);
-                        }
+                        } catch (e) { }
                     }
                     wordSprite.isHighlighted = true;
                 }
             } else {
                 if (wordSprite.isHighlighted) {
-                    // Remove highlight by restoring original blue color
                     if (wordSprite.bgOuter) {
                         try {
                             if (wordSprite.bgOuter.setFillStyle) {
@@ -823,16 +845,12 @@ class TypingGame {
                             } else {
                                 wordSprite.bgOuter.fillColor = 0x3b82f6;
                             }
-                        } catch (e) {
-                            console.log('Unhighlight method not available:', e);
-                        }
+                        } catch (e) { }
                     }
                     wordSprite.isHighlighted = false;
                 }
             }
         });
-        
-        // Move duck to the currently targeted word
         if (currentTarget) {
             this.moveDuckToTarget(currentTarget);
         }
@@ -860,31 +878,22 @@ class TypingGame {
 
     checkWordInstant() {
         if (this.currentInput.length === 0 || !this.fallingWordsGroup) return;
-
-        // Remove spaces from input for comparison
-        const inputNoSpaces = this.currentInput.replace(/\s+/g, '');
-        
-        // Find exact match
+        let inputNoSpaces = this.currentInput.replace(/\s+/g, '');
+        // VXQ mode: convert input
+        if (this.vxqMode) inputNoSpaces = TypingGame.vxqToTone(inputNoSpaces);
         const matchingWord = [...this.fallingWordsGroup.children.entries].find(wordSprite => {
-            if (!wordSprite.active) return false; // Skip destroyed words
-            
+            if (!wordSprite.active) return false;
             let targetLshk = wordSprite.wordData.lshk.toLowerCase();
-            
-            // Remove spaces from target for comparison
-            const targetNoSpaces = targetLshk.replace(/\s+/g, '');
-            
-            // If in toneless mode, remove tone numbers
+            let targetNoSpaces = targetLshk.replace(/\s+/g, '');
+            if (this.vxqMode) targetNoSpaces = TypingGame.vxqToTone(targetNoSpaces);
             if (this.tonelessMode) {
                 const inputToneless = inputNoSpaces.replace(/\d/g, '');
                 const targetToneless = targetNoSpaces.replace(/\d/g, '');
                 return targetToneless === inputToneless;
             }
-            
             return targetNoSpaces === inputNoSpaces;
         });
-
         if (matchingWord) {
-            // Word cleared instantly!
             this.clearWord(matchingWord);
             this.currentInput = '';
             this.updateInputDisplay();
@@ -893,31 +902,21 @@ class TypingGame {
 
     checkWord() {
         if (this.currentInput.length === 0 || !this.fallingWordsGroup) return;
-
-        // Remove spaces from input for comparison
-        const inputNoSpaces = this.currentInput.replace(/\s+/g, '');
-        
-        // Find exact match
+        let inputNoSpaces = this.currentInput.replace(/\s+/g, '');
+        if (this.vxqMode) inputNoSpaces = TypingGame.vxqToTone(inputNoSpaces);
         const matchingWord = [...this.fallingWordsGroup.children.entries].find(wordSprite => {
-            if (!wordSprite.active) return false; // Skip destroyed words
-            
+            if (!wordSprite.active) return false;
             let targetLshk = wordSprite.wordData.lshk.toLowerCase();
-            
-            // Remove spaces from target for comparison
-            const targetNoSpaces = targetLshk.replace(/\s+/g, '');
-            
-            // If in toneless mode, remove tone numbers
+            let targetNoSpaces = targetLshk.replace(/\s+/g, '');
+            if (this.vxqMode) targetNoSpaces = TypingGame.vxqToTone(targetNoSpaces);
             if (this.tonelessMode) {
                 const inputToneless = inputNoSpaces.replace(/\d/g, '');
                 const targetToneless = targetNoSpaces.replace(/\d/g, '');
                 return targetToneless === inputToneless;
             }
-            
             return targetNoSpaces === inputNoSpaces;
         });
-
         if (matchingWord) {
-            // Word cleared!
             this.clearWord(matchingWord);
             this.currentInput = '';
             this.updateInputDisplay();
